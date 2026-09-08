@@ -1,0 +1,207 @@
+match_number,date,stage,is_knockout,team,opponent,corners,goals_for,goals_against,goal_diff,outcome
+1,11/06/2026,Group Stage,No,Mexico,South Africa,3,2,0,2,Win
+1,11/06/2026,Group Stage,No,South Africa,Mexico,1,0,2,-2,Loss
+2,12/06/2026,Group Stage,No,South Korea,Czech Republic,4,2,1,1,Win
+2,12/06/2026,Group Stage,No,Czech Republic,South Korea,5,1,2,-1,Loss
+3,12/06/2026,Group Stage,No,Canada,Bosnia and Herzegovina,9,1,1,0,Draw
+3,12/06/2026,Group Stage,No,Bosnia and Herzegovina,Canada,4,1,1,0,Draw
+4,13/06/2026,Group Stage,No,USA,Paraguay,3,4,1,3,Win
+4,13/06/2026,Group Stage,No,Paraguay,USA,1,1,4,-3,Loss
+5,13/06/2026,Group Stage,No,Qatar,Switzerland,3,1,1,0,Draw
+5,13/06/2026,Group Stage,No,Switzerland,Qatar,10,1,1,0,Draw
+6,13/06/2026,Group Stage,No,Brazil,Morocco,6,1,1,0,Draw
+6,13/06/2026,Group Stage,No,Morocco,Brazil,2,1,1,0,Draw
+7,14/06/2026,Group Stage,No,Haiti,Scotland,4,0,1,-1,Loss
+7,14/06/2026,Group Stage,No,Scotland,Haiti,3,1,0,1,Win
+8,14/06/2026,Group Stage,No,Australia,Turkey,5,2,0,2,Win
+8,14/06/2026,Group Stage,No,Turkey,Australia,8,0,2,-2,Loss
+9,14/06/2026,Group Stage,No,Germany,Curacao,8,7,1,6,Win
+9,14/06/2026,Group Stage,No,Curacao,Germany,1,1,7,-6,Loss
+10,14/06/2026,Group Stage,No,Netherlands,Japan,5,2,2,0,Draw
+10,14/06/2026,Group Stage,No,Japan,Netherlands,4,2,2,0,Draw
+11,15/06/2026,Group Stage,No,Ivory Coast,Ecuador,3,1,0,1,Win
+11,15/06/2026,Group Stage,No,Ecuador,Ivory Coast,5,0,1,-1,Loss
+12,15/06/2026,Group Stage,No,Sweden,Tunisia,4,5,1,4,Win
+12,15/06/2026,Group Stage,No,Tunisia,Sweden,2,1,5,-4,Loss
+13,15/06/2026,Group Stage,No,Spain,Cape Verde,11,0,0,0,Draw
+13,15/06/2026,Group Stage,No,Cape Verde,Spain,1,0,0,0,Draw
+14,15/06/2026,Group Stage,No,Belgium,Egypt,2,1,1,0,Draw
+14,15/06/2026,Group Stage,No,Egypt,Belgium,7,1,1,0,Draw
+15,15/06/2026,Group Stage,No,Saudi Arabia,Uruguay,4,1,1,0,Draw
+15,15/06/2026,Group Stage,No,Uruguay,Saudi Arabia,14,1,1,0,Draw
+16,16/06/2026,Group Stage,No,Iran,New Zealand,4,2,2,0,Draw
+16,16/06/2026,Group Stage,No,New Zealand,Iran,1,2,2,0,Draw
+17,16/06/2026,Group Stage,No,France,Senegal,6,3,1,2,Win
+17,16/06/2026,Group Stage,No,Senegal,France,4,1,3,-2,Loss
+18,16/06/2026,Group Stage,No,Iraq,Norway,2,1,4,-3,Loss
+18,16/06/2026,Group Stage,No,Norway,Iraq,5,4,1,3,Win
+19,17/06/2026,Group Stage,No,Argentina,Algeria,2,3,0,3,Win
+19,17/06/2026,Group Stage,No,Algeria,Argentina,2,0,3,-3,Loss
+20,17/06/2026,Group Stage,No,Austria,Jordan,4,3,1,2,Win
+20,17/06/2026,Group Stage,No,Jordan,Austria,3,1,3,-2,Loss
+21,17/06/2026,Group Stage,No,Portugal,D.R. Congo,5,1,1,0,Draw
+21,17/06/2026,Group Stage,No,D.R. Congo,Portugal,4,1,1,0,Draw
+22,17/06/2026,Group Stage,No,England,Croatia,8,4,2,2,Win
+22,17/06/2026,Group Stage,No,Croatia,England,2,2,4,-2,Loss
+23,18/06/2026,Group Stage,No,Ghana,Panama,2,1,0,1,Win
+23,18/06/2026,Group Stage,No,Panama,Ghana,2,0,1,-1,Loss
+24,18/06/2026,Group Stage,No,Uzbekistan,Colombia,3,1,3,-2,Loss
+24,18/06/2026,Group Stage,No,Colombia,Uzbekistan,4,3,1,2,Win
+25,18/06/2026,Group Stage,No,Czech Republic,South Africa,5,1,1,0,Draw
+25,18/06/2026,Group Stage,No,South Africa,Czech Republic,5,1,1,0,Draw
+26,18/06/2026,Group Stage,No,Switzerland,Bosnia and Herzegovina,7,4,1,3,Win
+26,18/06/2026,Group Stage,No,Bosnia and Herzegovina,Switzerland,3,1,4,-3,Loss
+27,18/06/2026,Group Stage,No,Canada,Qatar,19,6,0,6,Win
+27,18/06/2026,Group Stage,No,Qatar,Canada,1,0,6,-6,Loss
+28,19/06/2026,Group Stage,No,Mexico,South Korea,0,1,0,1,Win
+28,19/06/2026,Group Stage,No,South Korea,Mexico,2,0,1,-1,Loss
+29,19/06/2026,Group Stage,No,USA,Australia,7,2,0,2,Win
+29,19/06/2026,Group Stage,No,Australia,USA,4,0,2,-2,Loss
+30,19/06/2026,Group Stage,No,Scotland,Morocco,5,0,1,-1,Loss
+30,19/06/2026,Group Stage,No,Morocco,Scotland,2,1,0,1,Win
+31,20/06/2026,Group Stage,No,Brazil,Haiti,4,3,0,3,Win
+31,20/06/2026,Group Stage,No,Haiti,Brazil,4,0,3,-3,Loss
+32,20/06/2026,Group Stage,No,Turkey,Paraguay,12,0,1,-1,Loss
+32,20/06/2026,Group Stage,No,Paraguay,Turkey,0,1,0,1,Win
+33,20/06/2026,Group Stage,No,Netherlands,Sweden,2,5,1,4,Win
+33,20/06/2026,Group Stage,No,Sweden,Netherlands,5,1,5,-4,Loss
+34,20/06/2026,Group Stage,No,Germany,Ivory Coast,8,2,1,1,Win
+34,20/06/2026,Group Stage,No,Ivory Coast,Germany,3,1,2,-1,Loss
+35,21/06/2026,Group Stage,No,Ecuador,Curacao,9,0,0,0,Draw
+35,21/06/2026,Group Stage,No,Curacao,Ecuador,0,0,0,0,Draw
+36,21/06/2026,Group Stage,No,Tunisia,Japan,3,0,4,-4,Loss
+36,21/06/2026,Group Stage,No,Japan,Tunisia,5,4,0,4,Win
+37,21/06/2026,Group Stage,No,Spain,Saudi Arabia,6,4,0,4,Win
+37,21/06/2026,Group Stage,No,Saudi Arabia,Spain,1,0,4,-4,Loss
+38,21/06/2026,Group Stage,No,Belgium,Iran,4,0,0,0,Draw
+38,21/06/2026,Group Stage,No,Iran,Belgium,2,0,0,0,Draw
+39,21/06/2026,Group Stage,No,Uruguay,Cape Verde,11,2,2,0,Draw
+39,21/06/2026,Group Stage,No,Cape Verde,Uruguay,4,2,2,0,Draw
+40,22/06/2026,Group Stage,No,New Zealand,Egypt,4,1,3,-2,Loss
+40,22/06/2026,Group Stage,No,Egypt,New Zealand,3,3,1,2,Win
+41,22/06/2026,Group Stage,No,Argentina,Austria,1,2,0,2,Win
+41,22/06/2026,Group Stage,No,Austria,Argentina,3,0,2,-2,Loss
+42,22/06/2026,Group Stage,No,France,Iraq,4,3,0,3,Win
+42,22/06/2026,Group Stage,No,Iraq,France,2,0,3,-3,Loss
+43,23/06/2026,Group Stage,No,Norway,Senegal,5,3,2,1,Win
+43,23/06/2026,Group Stage,No,Senegal,Norway,4,2,3,-1,Loss
+44,23/06/2026,Group Stage,No,Jordan,Algeria,1,1,2,-1,Loss
+44,23/06/2026,Group Stage,No,Algeria,Jordan,10,2,1,1,Win
+45,23/06/2026,Group Stage,No,Portugal,Uzbekistan,3,5,0,5,Win
+45,23/06/2026,Group Stage,No,Uzbekistan,Portugal,2,0,5,-5,Loss
+46,23/06/2026,Group Stage,No,England,Ghana,9,0,0,0,Draw
+46,23/06/2026,Group Stage,No,Ghana,England,2,0,0,0,Draw
+47,24/06/2026,Group Stage,No,Panama,Croatia,7,0,1,-1,Loss
+47,24/06/2026,Group Stage,No,Croatia,Panama,2,1,0,1,Win
+48,24/06/2026,Group Stage,No,Colombia,D.R. Congo,5,1,0,1,Win
+48,24/06/2026,Group Stage,No,D.R. Congo,Colombia,4,0,1,-1,Loss
+49,24/06/2026,Group Stage,No,Bosnia and Herzegovina,Qatar,5,3,1,2,Win
+49,24/06/2026,Group Stage,No,Qatar,Bosnia and Herzegovina,5,1,3,-2,Loss
+50,24/06/2026,Group Stage,No,Switzerland,Canada,2,2,1,1,Win
+50,24/06/2026,Group Stage,No,Canada,Switzerland,7,1,2,-1,Loss
+51,24/06/2026,Group Stage,No,Morocco,Haiti,9,4,2,2,Win
+51,24/06/2026,Group Stage,No,Haiti,Morocco,1,2,4,-2,Loss
+52,24/06/2026,Group Stage,No,Scotland,Brazil,7,0,3,-3,Loss
+52,24/06/2026,Group Stage,No,Brazil,Scotland,6,3,0,3,Win
+53,25/06/2026,Group Stage,No,Czech Republic,Mexico,5,0,3,-3,Loss
+53,25/06/2026,Group Stage,No,Mexico,Czech Republic,1,3,0,3,Win
+54,25/06/2026,Group Stage,No,South Africa,South Korea,4,1,0,1,Win
+54,25/06/2026,Group Stage,No,South Korea,South Africa,6,0,1,-1,Loss
+55,25/06/2026,Group Stage,No,Curacao,Ivory Coast,4,0,2,-2,Loss
+55,25/06/2026,Group Stage,No,Ivory Coast,Curacao,6,2,0,2,Win
+56,25/06/2026,Group Stage,No,Ecuador,Germany,3,2,1,1,Win
+56,25/06/2026,Group Stage,No,Germany,Ecuador,2,1,2,-1,Loss
+57,26/06/2026,Group Stage,No,Japan,Sweden,2,1,1,0,Draw
+57,26/06/2026,Group Stage,No,Sweden,Japan,8,1,1,0,Draw
+58,26/06/2026,Group Stage,No,Tunisia,Netherlands,4,1,3,-2,Loss
+58,26/06/2026,Group Stage,No,Netherlands,Tunisia,6,3,1,2,Win
+59,26/06/2026,Group Stage,No,Paraguay,Australia,1,0,0,0,Draw
+59,26/06/2026,Group Stage,No,Australia,Paraguay,3,0,0,0,Draw
+60,26/06/2026,Group Stage,No,Turkey,USA,2,3,2,1,Win
+60,26/06/2026,Group Stage,No,USA,Turkey,9,2,3,-1,Loss
+61,26/06/2026,Group Stage,No,Norway,France,4,1,4,-3,Loss
+61,26/06/2026,Group Stage,No,France,Norway,5,4,1,3,Win
+62,26/06/2026,Group Stage,No,Senegal,Iraq,12,5,0,5,Win
+62,26/06/2026,Group Stage,No,Iraq,Senegal,3,0,5,-5,Loss
+63,27/06/2026,Group Stage,No,Cape Verde,Saudi Arabia,4,0,0,0,Draw
+63,27/06/2026,Group Stage,No,Saudi Arabia,Cape Verde,2,0,0,0,Draw
+64,27/06/2026,Group Stage,No,Uruguay,Spain,1,0,1,-1,Loss
+64,27/06/2026,Group Stage,No,Spain,Uruguay,6,1,0,1,Win
+65,27/06/2026,Group Stage,No,Egypt,Iran,8,1,1,0,Draw
+65,27/06/2026,Group Stage,No,Iran,Egypt,2,1,1,0,Draw
+66,27/06/2026,Group Stage,No,New Zealand,Belgium,5,1,5,-4,Loss
+66,27/06/2026,Group Stage,No,Belgium,New Zealand,8,5,1,4,Win
+67,27/06/2026,Group Stage,No,Croatia,Ghana,3,2,1,1,Win
+67,27/06/2026,Group Stage,No,Ghana,Croatia,2,1,2,-1,Loss
+68,27/06/2026,Group Stage,No,Panama,England,3,0,2,-2,Loss
+68,27/06/2026,Group Stage,No,England,Panama,7,2,0,2,Win
+69,28/06/2026,Group Stage,No,Colombia,Portugal,5,0,0,0,Draw
+69,28/06/2026,Group Stage,No,Portugal,Colombia,2,0,0,0,Draw
+70,28/06/2026,Group Stage,No,D.R. Congo,Uzbekistan,2,3,1,2,Win
+70,28/06/2026,Group Stage,No,Uzbekistan,D.R. Congo,4,1,3,-2,Loss
+71,28/06/2026,Group Stage,No,Algeria,Austria,0,3,3,0,Draw
+71,28/06/2026,Group Stage,No,Austria,Algeria,3,3,3,0,Draw
+72,28/06/2026,Group Stage,No,Jordan,Argentina,2,1,3,-2,Loss
+72,28/06/2026,Group Stage,No,Argentina,Jordan,6,3,1,2,Win
+73,28/06/2026,Round of 32,Yes,South Africa,Canada,1,0,1,-1,Loss
+73,28/06/2026,Round of 32,Yes,Canada,South Africa,4,1,0,1,Win
+74,29/06/2026,Round of 32,Yes,Brazil,Japan,6,2,1,1,Win
+74,29/06/2026,Round of 32,Yes,Japan,Brazil,2,1,2,-1,Loss
+75,29/06/2026,Round of 32,Yes,Germany,Paraguay,16,1,1,0,Draw
+75,29/06/2026,Round of 32,Yes,Paraguay,Germany,6,1,1,0,Draw
+76,29/06/2026,Round of 32,Yes,Netherlands,Morocco,5,1,1,0,Draw
+76,29/06/2026,Round of 32,Yes,Morocco,Netherlands,8,1,1,0,Draw
+77,30/06/2026,Round of 32,Yes,Ivory Coast,Norway,14,1,2,-1,Loss
+77,30/06/2026,Round of 32,Yes,Norway,Ivory Coast,3,2,1,1,Win
+78,30/06/2026,Round of 32,Yes,France,Sweden,9,3,0,3,Win
+78,30/06/2026,Round of 32,Yes,Sweden,France,1,0,3,-3,Loss
+79,30/06/2026,Round of 32,Yes,Mexico,Ecuador,3,2,0,2,Win
+79,30/06/2026,Round of 32,Yes,Ecuador,Mexico,8,0,2,-2,Loss
+80,01/07/2026,Round of 32,Yes,England,D.R. Congo,5,2,1,1,Win
+80,01/07/2026,Round of 32,Yes,D.R. Congo,England,3,1,2,-1,Loss
+81,01/07/2026,Round of 32,Yes,Belgium,Senegal,4,3,2,1,Win
+81,01/07/2026,Round of 32,Yes,Senegal,Belgium,2,2,3,-1,Loss
+82,01/07/2026,Round of 32,Yes,USA,Bosnia and Herzegovina,4,2,0,2,Win
+82,01/07/2026,Round of 32,Yes,Bosnia and Herzegovina,USA,3,0,2,-2,Loss
+83,02/07/2026,Round of 32,Yes,Spain,Austria,9,3,0,3,Win
+83,02/07/2026,Round of 32,Yes,Austria,Spain,0,0,3,-3,Loss
+84,02/07/2026,Round of 32,Yes,Portugal,Croatia,9,2,1,1,Win
+84,02/07/2026,Round of 32,Yes,Croatia,Portugal,5,1,2,-1,Loss
+85,02/07/2026,Round of 32,Yes,Switzerland,Algeria,4,2,0,2,Win
+85,02/07/2026,Round of 32,Yes,Algeria,Switzerland,2,0,2,-2,Loss
+86,03/07/2026,Round of 32,Yes,Australia,Egypt,4,1,1,0,Draw
+86,03/07/2026,Round of 32,Yes,Egypt,Australia,7,1,1,0,Draw
+87,03/07/2026,Round of 32,Yes,Argentina,Cape Verde,8,3,2,1,Win
+87,03/07/2026,Round of 32,Yes,Cape Verde,Argentina,8,2,3,-1,Loss
+88,03/07/2026,Round of 32,Yes,Colombia,Ghana,3,1,0,1,Win
+88,03/07/2026,Round of 32,Yes,Ghana,Colombia,2,0,1,-1,Loss
+89,04/07/2026,Round of 16,Yes,Canada,Morocco,11,0,3,-3,Loss
+89,04/07/2026,Round of 16,Yes,Morocco,Canada,1,3,0,3,Win
+90,04/07/2026,Round of 16,Yes,Paraguay,France,2,0,1,-1,Loss
+90,04/07/2026,Round of 16,Yes,France,Paraguay,12,1,0,1,Win
+91,05/07/2026,Round of 16,Yes,Brazil,Norway,5,1,2,-1,Loss
+91,05/07/2026,Round of 16,Yes,Norway,Brazil,5,2,1,1,Win
+92,05/07/2026,Round of 16,Yes,Mexico,England,12,2,3,-1,Loss
+92,05/07/2026,Round of 16,Yes,England,Mexico,2,3,2,1,Win
+93,06/07/2026,Round of 16,Yes,Portugal,Spain,3,0,1,-1,Loss
+93,06/07/2026,Round of 16,Yes,Spain,Portugal,7,1,0,1,Win
+94,06/07/2026,Round of 16,Yes,USA,Belgium,3,1,4,-3,Loss
+94,06/07/2026,Round of 16,Yes,Belgium,USA,5,4,1,3,Win
+95,07/07/2026,Round of 16,Yes,Argentina,Egypt,6,3,2,1,Win
+95,07/07/2026,Round of 16,Yes,Egypt,Argentina,1,2,3,-1,Loss
+96,07/07/2026,Round of 16,Yes,Switzerland,Colombia,3,0,0,0,Draw
+96,07/07/2026,Round of 16,Yes,Colombia,Switzerland,7,0,0,0,Draw
+97,09/07/2026,Quarter Finals,Yes,France,Morocco,5,2,0,2,Win
+97,09/07/2026,Quarter Finals,Yes,Morocco,France,5,0,2,-2,Loss
+98,10/07/2026,Quarter Finals,Yes,Spain,Belgium,5,2,1,1,Win
+98,10/07/2026,Quarter Finals,Yes,Belgium,Spain,1,1,2,-1,Loss
+99,11/07/2026,Quarter Finals,Yes,Norway,England,7,1,2,-1,Loss
+99,11/07/2026,Quarter Finals,Yes,England,Norway,4,2,1,1,Win
+100,11/07/2026,Quarter Finals,Yes,Argentina,Switzerland,8,3,1,2,Win
+100,11/07/2026,Quarter Finals,Yes,Switzerland,Argentina,2,1,3,-2,Loss
+101,14/07/2026,Semi Finals,Yes,France,Spain,7,0,2,-2,Loss
+101,14/07/2026,Semi Finals,Yes,Spain,France,1,2,0,2,Win
+102,15/07/2026,Semi Finals,Yes,England,Argentina,1,1,2,-1,Loss
+102,15/07/2026,Semi Finals,Yes,Argentina,England,6,2,1,1,Win
+103,19/07/2026,Final,Yes,Spain,Argentina,9,1,0,1,Win
+103,19/07/2026,Final,Yes,Argentina,Spain,4,0,1,-1,Loss
