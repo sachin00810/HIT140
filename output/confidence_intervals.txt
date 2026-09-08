@@ -1,0 +1,30 @@
+95% CONFIDENCE INTERVALS
+Variable: corners
+Method: t-based interval. The population standard deviation is
+unknown and estimated from the sample, so t* is used, not z.
+Formula: xbar +/- t* * (s / sqrt(n))
+==============================================================
+
+Winning teams
+  sample mean     : 5.3333
+  standard error  : 0.4094
+  t*              : 2.0010   (df = 59)
+  margin of error : 0.8192
+  95% CI          : [4.5141, 6.1525]
+
+Losing teams
+  sample mean     : 3.8500
+  standard error  : 0.3719
+  t*              : 2.0010   (df = 59)
+  margin of error : 0.7442
+  95% CI          : [3.1058, 4.5942]
+
+DIFFERENCE (Winning teams - Losing teams)
+Method: Welch interval using Welch-Satterthwaite degrees of
+freedom, because the two groups may have unequal variances.
+  difference      : 1.4833
+  standard error  : 0.5531
+  df              : 116.93
+  95% CI          : [0.3879, 2.5787]
+  Zero is EXCLUDED, which is consistent with a
+  significant two-sided test at alpha = 0.05.

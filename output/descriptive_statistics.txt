@@ -1,0 +1,31 @@
+DESCRIPTIVE STATISTICS
+Task: corners won by winning teams vs losing teams
+Variable: corners — corners won by a team in a single match
+==============================================================
+
+Winning teams
+-------------
+           n : 60
+        mean : 5.3333
+      median : 5.0000
+     std_dev : 3.1712
+         min : 0
+          q1 : 3.0000
+          q3 : 6.2500
+         max : 19
+    skewness : 1.5573
+
+Losing teams
+------------
+           n : 60
+        mean : 3.8500
+      median : 3.0000
+     std_dev : 2.8808
+         min : 0
+          q1 : 2.0000
+          q3 : 5.0000
+         max : 14
+    skewness : 1.4972
+
+Note: the median is reported next to the mean because corner counts
+are right-skewed. The positive skewness values confirm this.

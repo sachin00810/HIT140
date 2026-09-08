@@ -1,0 +1,33 @@
+HYPOTHESIS TEST — WELCH INDEPENDENT SAMPLES t-TEST
+==============================================================
+
+Research question
+-----------------
+  Is there a significant difference in the average number of corners
+  won by teams that win their match compared with teams that lose?
+
+Hypotheses
+----------
+  H0 : mu_win  = mu_loss
+  Ha : mu_win != mu_loss    (two-sided)
+
+Why Welch
+---------
+  equal_var=False, so equal population variances are not assumed.
+  This is the safer default and costs almost nothing in power.
+
+Group summaries
+---------------
+  Winning teams    n =  60, mean = 5.3333, sd = 3.1712
+  Losing teams     n =  60, mean = 3.8500, sd = 2.8808
+
+Test results
+------------
+  mean difference    : 1.4833
+  95% CI for diff    : [0.3879, 2.5787]
+  t statistic        : 2.6818
+  degrees of freedom : 116.93
+  p value            : 0.008382
+  Cohen's d          : 0.4896
+  alpha              : 0.05
+  DECISION           : REJECT H0
