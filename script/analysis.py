@@ -25,7 +25,7 @@ DATA PROVENANCE — put this on your slide
   is absent from the source fixtures table; the site's own "Total Games Played:
   104" does not reconcile with the 103 matches it actually lists.
   Cross-validation: corner totals were checked against the site's SEPARATE
-  per-team aggregate view (data/raw/team_stats_aggregate.csv). Twelve teams
+  per-team aggregate view (data/raw_data.csv). Twelve teams
   disagree; build_dataset.py prints the exact gaps on every run. The affected
   fixtures rows were re-read from the live table and confirmed unchanged, so the
   discrepancy is an inconsistency within the source website, not a transcription

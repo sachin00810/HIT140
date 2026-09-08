@@ -9,7 +9,7 @@ corners won by teams that **win** their match compared with teams that **lose**?
 | Folder / file | What it is |
 |---|---|
 | `data/raw/wc2026_fixtures_raw.csv` | Raw input — one row per team per match, fields straight from the source fixtures table (no derived columns). 206 rows, 103 matches. |
-| `data/raw/team_stats_aggregate.csv` | The source site's separate per-team aggregate view. Reference only — used to cross-check corner totals, never to change a value. |
+| `data/raw_data.csv` | The source site's separate per-team aggregate view. Reference only — used to cross-check corner totals, never to change a value. |
 | `data/wc2026_match_corners.csv` | Analysis dataset — the raw rows cleaned, with `outcome`, `goal_diff`, `is_knockout` added. Built by `build_dataset.py`. |
 | `script/build_dataset.py` | `data/raw/` → `data/wc2026_match_corners.csv`: name fixes, integrity checks, derived columns, cross-check against the aggregate view. |
 | `script/analysis.py` | The analysis: wrangling, stratified sampling, descriptives, 95% CIs, Welch t-test, figure. |
