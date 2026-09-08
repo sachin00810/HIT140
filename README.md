@@ -8,19 +8,24 @@ corners won by teams that **win** their match compared with teams that **lose**?
 
 | Folder / file | What it is |
 |---|---|
-| `data/wc2026_match_corners.csv` | Analysis dataset — 206 team-match rows, 103 matches, one row per team per match. |
-| `script/build_dataset.py` | How the dataset was built from the raw fixtures export (provenance / integrity checks). |
-| `script/task_corners_winners_vs_losers.py` | The analysis: wrangling, stratified sampling, descriptives, 95% CIs, Welch t-test. |
-| `output/` | Everything the analysis script produces (regenerated on each run). |
+| `data/raw/wc2026_fixtures_raw.csv` | Raw input — one row per team per match, fields straight from the source fixtures table (no derived columns). 206 rows, 103 matches. |
+| `data/raw/team_stats_aggregate.csv` | The source site's separate per-team aggregate view. Reference only — used to cross-check corner totals, never to change a value. |
+| `data/wc2026_match_corners.csv` | Analysis dataset — the raw rows cleaned, with `outcome`, `goal_diff`, `is_knockout` added. Built by `build_dataset.py`. |
+| `script/build_dataset.py` | `data/raw/` → `data/wc2026_match_corners.csv`: name fixes, integrity checks, derived columns, cross-check against the aggregate view. |
+| `script/analysis.py` | The analysis: wrangling, stratified sampling, descriptives, 95% CIs, Welch t-test, figure. |
+| `output/` | Everything `analysis.py` produces (regenerated on each run). |
 
 ## Run
 
 ```bash
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-python script/task_corners_winners_vs_losers.py
+python script/build_dataset.py     # rebuild the analysis dataset from data/raw/
+python script/analysis.py          # run the analysis, write output/
 ```
 
 Paths are resolved from the project root, so the working directory does not matter.
+`build_dataset.py` reproduces the committed `data/wc2026_match_corners.csv` byte for byte.
 
 ### Outputs written to `output/`
 
@@ -51,3 +56,5 @@ The effect is real but small-to-moderate: corners alone do not decide matches.
 - Association, not causation — winning and winning corners both reflect control of play.
 - Describes decided matches only (draws excluded).
 - The third-place play-off is absent from the source fixtures table (103 of 104 matches).
+- The source site's aggregate view disagrees on corner totals for 12 teams (by 1–9);
+  the twice-verified fixtures figures are used. `build_dataset.py` prints the gaps.

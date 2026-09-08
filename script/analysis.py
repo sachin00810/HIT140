@@ -1,18 +1,15 @@
-"""
-HIT140 Assessment 2 — Objective 1
-Analytic Task: Corners won by winning teams vs losing teams
-Group 10 | Owner: ____________
+"""HIT140 Assessment 2 — Objective 1  |  Group 10
 
 ANALYTIC QUESTION
   Is there a significant difference in the average number of corners won by
   teams that WIN their match compared with teams that LOSE?
 
-  Population:           All team-match performances at the 2026 FIFA World Cup.
-  Unit of observation:  One team in one match.
-  Variable of interest: corners won by that team in that match (count).
-  Grouping:             outcome, restricted to Win vs Loss.
-  Exclusion rule:       Drawn matches excluded — in a draw neither team won nor
-                        lost, so those rows belong to neither group.
+  Population           : all team-match performances at the 2026 FIFA World Cup
+  Unit of observation  : one team in one match
+  Variable of interest : corners won by that team in that match (count)
+  Grouping             : outcome, restricted to Win vs Loss
+  Exclusion rule       : drawn matches excluded — in a draw neither team won
+                         nor lost, so those rows belong to neither group
   H0: mu_win  = mu_loss
   Ha: mu_win != mu_loss        (two-sided)
   Test: Welch two-sample t-test (does not assume equal variances)
@@ -28,14 +25,16 @@ DATA PROVENANCE — put this on your slide
   is absent from the source fixtures table; the site's own "Total Games Played:
   104" does not reconcile with the 103 matches it actually lists.
   Cross-validation: corner totals were checked against the site's SEPARATE
-  Team Stats aggregate tables. Ten teams disagreed by between 1 and 9 corners.
-  All 50 affected rows were then re-read from the live fixtures table and
-  confirmed unchanged. The discrepancy is therefore an inconsistency within the
-  source website, not a transcription error. Match-level figures are used here
-  because they are the correct unit of observation and were verified twice.
+  per-team aggregate view (data/raw/team_stats_aggregate.csv). Twelve teams
+  disagree; build_dataset.py prints the exact gaps on every run. The affected
+  fixtures rows were re-read from the live table and confirmed unchanged, so the
+  discrepancy is an inconsistency within the source website, not a transcription
+  error. Match-level figures are used here because they are the correct unit of
+  observation and were verified twice.
 
 HOW TO RUN
-  python script/task_corners_winners_vs_losers.py
+  python script/build_dataset.py     # data/raw/ -> data/wc2026_match_corners.csv
+  python script/analysis.py          # this script
 
   Reads : data/wc2026_match_corners.csv
   Writes: output/corners_winners_vs_losers.png

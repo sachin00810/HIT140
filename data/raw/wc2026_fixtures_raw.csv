@@ -1,0 +1,207 @@
+match_number,date,stage,team,opponent,corners,goals_for,goals_against
+1,11/06/2026,Group Stage,Mexico,South Africa,3,2,0
+1,11/06/2026,Group Stage,South Africa,Mexico,1,0,2
+2,12/06/2026,Group Stage,South Korea,Czech Republic,4,2,1
+2,12/06/2026,Group Stage,Czech Republic,South Korea,5,1,2
+3,12/06/2026,Group Stage,Canada,Bosnia and Herzegovina,9,1,1
+3,12/06/2026,Group Stage,Bosnia and Herzegovina,Canada,4,1,1
+4,13/06/2026,Group Stage,USA,Paraguay,3,4,1
+4,13/06/2026,Group Stage,Paraguay,USA,1,1,4
+5,13/06/2026,Group Stage,Qatar,Switzerland,3,1,1
+5,13/06/2026,Group Stage,Switzerland,Qatar,10,1,1
+6,13/06/2026,Group Stage,Brazil,Morocco,6,1,1
+6,13/06/2026,Group Stage,Morocco,Brazil,2,1,1
+7,14/06/2026,Group Stage,Haiti,Scotland,4,0,1
+7,14/06/2026,Group Stage,Scotland,Haiti,3,1,0
+8,14/06/2026,Group Stage,Australia,Turkey,5,2,0
+8,14/06/2026,Group Stage,Turkey,Australia,8,0,2
+9,14/06/2026,Group Stage,Germany,Curacao,8,7,1
+9,14/06/2026,Group Stage,Curacao,Germany,1,1,7
+10,14/06/2026,Group Stage,Netherlands,Japan,5,2,2
+10,14/06/2026,Group Stage,Japan,Netherlands,4,2,2
+11,15/06/2026,Group Stage,Ivory Coast,Ecuador,3,1,0
+11,15/06/2026,Group Stage,Ecuador,Ivory Coast,5,0,1
+12,15/06/2026,Group Stage,Sweden,Tunisia,4,5,1
+12,15/06/2026,Group Stage,Tunisia,Sweden,2,1,5
+13,15/06/2026,Group Stage,Spain,Cape Verde,11,0,0
+13,15/06/2026,Group Stage,Cape Verde,Spain,1,0,0
+14,15/06/2026,Group Stage,Belgium,Egypt,2,1,1
+14,15/06/2026,Group Stage,Egypt,Belgium,7,1,1
+15,15/06/2026,Group Stage,Saudi Arabia,Uruguay,4,1,1
+15,15/06/2026,Group Stage,Uruguay,Saudi Arabia,14,1,1
+16,16/06/2026,Group Stage,Iran,New Zealand,4,2,2
+16,16/06/2026,Group Stage,New Zealand,Iran,1,2,2
+17,16/06/2026,Group Stage,France,Senegal,6,3,1
+17,16/06/2026,Group Stage,Senegal,France,4,1,3
+18,16/06/2026,Group Stage,Iraq,Norway,2,1,4
+18,16/06/2026,Group Stage,Norway,Iraq,5,4,1
+19,17/06/2026,Group Stage,Argentina,Algeria,2,3,0
+19,17/06/2026,Group Stage,Algeria,Argentina,2,0,3
+20,17/06/2026,Group Stage,Austria,Jordan,4,3,1
+20,17/06/2026,Group Stage,Jordan,Austria,3,1,3
+21,17/06/2026,Group Stage,Portugal,D.R. Congo,5,1,1
+21,17/06/2026,Group Stage,D.R. Congo,Portugal,4,1,1
+22,17/06/2026,Group Stage,England,Croatia,8,4,2
+22,17/06/2026,Group Stage,Croatia,England,2,2,4
+23,18/06/2026,Group Stage,Ghana,Panama,2,1,0
+23,18/06/2026,Group Stage,Panama,Ghana,2,0,1
+24,18/06/2026,Group Stage,Uzbekistan,Colombia,3,1,3
+24,18/06/2026,Group Stage,Colombia,Uzbekistan,4,3,1
+25,18/06/2026,Group Stage,Czech Republic,South Africa,5,1,1
+25,18/06/2026,Group Stage,South Africa,Czech Republic,5,1,1
+26,18/06/2026,Group Stage,Switzerland,Bosnia and Herzegovina,7,4,1
+26,18/06/2026,Group Stage,Bosnia and Herzegovina,Switzerland,3,1,4
+27,18/06/2026,Group Stage,Canada,Qatar,19,6,0
+27,18/06/2026,Group Stage,Qatar,Canada,1,0,6
+28,19/06/2026,Group Stage,Mexico,South Korea,0,1,0
+28,19/06/2026,Group Stage,South Korea,Mexico,2,0,1
+29,19/06/2026,Group Stage,USA,Australia,7,2,0
+29,19/06/2026,Group Stage,Australia,USA,4,0,2
+30,19/06/2026,Group Stage,Scotland,Morocco,5,0,1
+30,19/06/2026,Group Stage,Morocco,Scotland,2,1,0
+31,20/06/2026,Group Stage,Brazil,Haiti,4,3,0
+31,20/06/2026,Group Stage,Haiti,Brazil,4,0,3
+32,20/06/2026,Group Stage,Turkey,Paraguay,12,0,1
+32,20/06/2026,Group Stage,Paraguay,Turkey,0,1,0
+33,20/06/2026,Group Stage,Netherlands,Sweden,2,5,1
+33,20/06/2026,Group Stage,Sweden,Netherlands,5,1,5
+34,20/06/2026,Group Stage,Germany,Ivory Coast,8,2,1
+34,20/06/2026,Group Stage,Ivory Coast,Germany,3,1,2
+35,21/06/2026,Group Stage,Ecuador,Curacao,9,0,0
+35,21/06/2026,Group Stage,Curacao,Ecuador,0,0,0
+36,21/06/2026,Group Stage,Tunisia,Japan,3,0,4
+36,21/06/2026,Group Stage,Japan,Tunisia,5,4,0
+37,21/06/2026,Group Stage,Spain,Saudi Arabia,6,4,0
+37,21/06/2026,Group Stage,Saudi Arabia,Spain,1,0,4
+38,21/06/2026,Group Stage,Belgium,Iran,4,0,0
+38,21/06/2026,Group Stage,Iran,Belgium,2,0,0
+39,21/06/2026,Group Stage,Uruguay,Cape Verde,11,2,2
+39,21/06/2026,Group Stage,Cape Verde,Uruguay,4,2,2
+40,22/06/2026,Group Stage,New Zealand,Egypt,4,1,3
+40,22/06/2026,Group Stage,Egypt,New Zealand,3,3,1
+41,22/06/2026,Group Stage,Argentina,Austria,1,2,0
+41,22/06/2026,Group Stage,Austria,Argentina,3,0,2
+42,22/06/2026,Group Stage,France,Iraq,4,3,0
+42,22/06/2026,Group Stage,Iraq,France,2,0,3
+43,23/06/2026,Group Stage,Norway,Senegal,5,3,2
+43,23/06/2026,Group Stage,Senegal,Norway,4,2,3
+44,23/06/2026,Group Stage,Jordan,Algeria,1,1,2
+44,23/06/2026,Group Stage,Algeria,Jordan,10,2,1
+45,23/06/2026,Group Stage,Portugal,Uzbekistan,3,5,0
+45,23/06/2026,Group Stage,Uzbekistan,Portugal,2,0,5
+46,23/06/2026,Group Stage,England,Ghana,9,0,0
+46,23/06/2026,Group Stage,Ghana,England,2,0,0
+47,24/06/2026,Group Stage,Panama,Croatia,7,0,1
+47,24/06/2026,Group Stage,Croatia,Panama,2,1,0
+48,24/06/2026,Group Stage,Colombia,D.R. Congo,5,1,0
+48,24/06/2026,Group Stage,D.R. Congo,Colombia,4,0,1
+49,24/06/2026,Group Stage,Bosnia and Herzegovina,Qatar,5,3,1
+49,24/06/2026,Group Stage,Qatar,Bosnia and Herzegovina,5,1,3
+50,24/06/2026,Group Stage,Switzerland,Canada,2,2,1
+50,24/06/2026,Group Stage,Canada,Switzerland,7,1,2
+51,24/06/2026,Group Stage,Morocco,Haiti,9,4,2
+51,24/06/2026,Group Stage,Haiti,Morocco,1,2,4
+52,24/06/2026,Group Stage,Scotland,Brazil,7,0,3
+52,24/06/2026,Group Stage,Brazil,Scotland,6,3,0
+53,25/06/2026,Group Stage,Czech Republic,Mexico,5,0,3
+53,25/06/2026,Group Stage,Mexico,Czech Republic,1,3,0
+54,25/06/2026,Group Stage,South Africa,South Korea,4,1,0
+54,25/06/2026,Group Stage,South Korea,South Africa,6,0,1
+55,25/06/2026,Group Stage,Curacao,Ivory Coast,4,0,2
+55,25/06/2026,Group Stage,Ivory Coast,Curacao,6,2,0
+56,25/06/2026,Group Stage,Ecuador,Germany,3,2,1
+56,25/06/2026,Group Stage,Germany,Ecuador,2,1,2
+57,26/06/2026,Group Stage,Japan,Sweden,2,1,1
+57,26/06/2026,Group Stage,Sweden,Japan,8,1,1
+58,26/06/2026,Group Stage,Tunisia,Netherlands,4,1,3
+58,26/06/2026,Group Stage,Netherlands,Tunisia,6,3,1
+59,26/06/2026,Group Stage,Paraguay,Australia,1,0,0
+59,26/06/2026,Group Stage,Australia,Paraguay,3,0,0
+60,26/06/2026,Group Stage,Turkey,USA,2,3,2
+60,26/06/2026,Group Stage,USA,Turkey,9,2,3
+61,26/06/2026,Group Stage,Norway,France,4,1,4
+61,26/06/2026,Group Stage,France,Norway,5,4,1
+62,26/06/2026,Group Stage,Senegal,Iraq,12,5,0
+62,26/06/2026,Group Stage,Iraq,Senegal,3,0,5
+63,27/06/2026,Group Stage,Cape Verde,Saudi Arabia,4,0,0
+63,27/06/2026,Group Stage,Saudi Arabia,Cape Verde,2,0,0
+64,27/06/2026,Group Stage,Uruguay,Spain,1,0,1
+64,27/06/2026,Group Stage,Spain,Uruguay,6,1,0
+65,27/06/2026,Group Stage,Egypt,Iran,8,1,1
+65,27/06/2026,Group Stage,Iran,Egypt,2,1,1
+66,27/06/2026,Group Stage,New Zealand,Belgium,5,1,5
+66,27/06/2026,Group Stage,Belgium,New Zealand,8,5,1
+67,27/06/2026,Group Stage,Croatia,Ghana,3,2,1
+67,27/06/2026,Group Stage,Ghana,Croatia,2,1,2
+68,27/06/2026,Group Stage,Panama,England,3,0,2
+68,27/06/2026,Group Stage,England,Panama,7,2,0
+69,28/06/2026,Group Stage,Colombia,Portugal,5,0,0
+69,28/06/2026,Group Stage,Portugal,Colombia,2,0,0
+70,28/06/2026,Group Stage,D.R. Congo,Uzbekistan,2,3,1
+70,28/06/2026,Group Stage,Uzbekistan,D.R. Congo,4,1,3
+71,28/06/2026,Group Stage,Algeria,Austria,0,3,3
+71,28/06/2026,Group Stage,Austria,Algeria,3,3,3
+72,28/06/2026,Group Stage,Jordan,Argentina,2,1,3
+72,28/06/2026,Group Stage,Argentina,Jordan,6,3,1
+73,28/06/2026,Round of 32,South Africa,Canada,1,0,1
+73,28/06/2026,Round of 32,Canada,South Africa,4,1,0
+74,29/06/2026,Round of 32,Brazil,Japan,6,2,1
+74,29/06/2026,Round of 32,Japan,Brazil,2,1,2
+75,29/06/2026,Round of 32,Germany,Paraguay,16,1,1
+75,29/06/2026,Round of 32,Paraguay,Germany,6,1,1
+76,29/06/2026,Round of 32,Netherlands,Morocco,5,1,1
+76,29/06/2026,Round of 32,Morocco,Netherlands,8,1,1
+77,30/06/2026,Round of 32,Ivory Coast,Norway,14,1,2
+77,30/06/2026,Round of 32,Norway,Ivory Coast,3,2,1
+78,30/06/2026,Round of 32,France,Sweden,9,3,0
+78,30/06/2026,Round of 32,Sweden,France,1,0,3
+79,30/06/2026,Round of 32,Mexico,Ecuador,3,2,0
+79,30/06/2026,Round of 32,Ecuador,Mexico,8,0,2
+80,01/07/2026,Round of 32,England,D.R. Congo,5,2,1
+80,01/07/2026,Round of 32,D.R. Congo,England,3,1,2
+81,01/07/2026,Round of 32,Belgium,Senegal,4,3,2
+81,01/07/2026,Round of 32,Senegal,Belgium,2,2,3
+82,01/07/2026,Round of 32,USA,Bosnia and Herzegovina,4,2,0
+82,01/07/2026,Round of 32,Bosnia and Herzegovina,USA,3,0,2
+83,02/07/2026,Round of 32,Spain,Austria,9,3,0
+83,02/07/2026,Round of 32,Austria,Spain,0,0,3
+84,02/07/2026,Round of 32,Portugal,Croatia,9,2,1
+84,02/07/2026,Round of 32,Croatia,Portugal,5,1,2
+85,02/07/2026,Round of 32,Switzerland,Algeria,4,2,0
+85,02/07/2026,Round of 32,Algeria,Switzerland,2,0,2
+86,03/07/2026,Round of 32,Australia,Egypt,4,1,1
+86,03/07/2026,Round of 32,Egypt,Australia,7,1,1
+87,03/07/2026,Round of 32,Argentina,Cape Verde,8,3,2
+87,03/07/2026,Round of 32,Cape Verde,Argentina,8,2,3
+88,03/07/2026,Round of 32,Colombia,Ghana,3,1,0
+88,03/07/2026,Round of 32,Ghana,Colombia,2,0,1
+89,04/07/2026,Round of 16,Canada,Morocco,11,0,3
+89,04/07/2026,Round of 16,Morocco,Canada,1,3,0
+90,04/07/2026,Round of 16,Paraguay,France,2,0,1
+90,04/07/2026,Round of 16,France,Paraguay,12,1,0
+91,05/07/2026,Round of 16,Brazil,Norway,5,1,2
+91,05/07/2026,Round of 16,Norway,Brazil,5,2,1
+92,05/07/2026,Round of 16,Mexico,England,12,2,3
+92,05/07/2026,Round of 16,England,Mexico,2,3,2
+93,06/07/2026,Round of 16,Portugal,Spain,3,0,1
+93,06/07/2026,Round of 16,Spain,Portugal,7,1,0
+94,06/07/2026,Round of 16,USA,Belgium,3,1,4
+94,06/07/2026,Round of 16,Belgium,USA,5,4,1
+95,07/07/2026,Round of 16,Argentina,Egypt,6,3,2
+95,07/07/2026,Round of 16,Egypt,Argentina,1,2,3
+96,07/07/2026,Round of 16,Switzerland,Colombia,3,0,0
+96,07/07/2026,Round of 16,Colombia,Switzerland,7,0,0
+97,09/07/2026,Quarter Finals,France,Morocco,5,2,0
+97,09/07/2026,Quarter Finals,Morocco,France,5,0,2
+98,10/07/2026,Quarter Finals,Spain,Belgium,5,2,1
+98,10/07/2026,Quarter Finals,Belgium,Spain,1,1,2
+99,11/07/2026,Quarter Finals,Norway,England,7,1,2
+99,11/07/2026,Quarter Finals,England,Norway,4,2,1
+100,11/07/2026,Quarter Finals,Argentina,Switzerland,8,3,1
+100,11/07/2026,Quarter Finals,Switzerland,Argentina,2,1,3
+101,14/07/2026,Semi Finals,France,Spain,7,0,2
+101,14/07/2026,Semi Finals,Spain,France,1,2,0
+102,15/07/2026,Semi Finals,England,Argentina,1,1,2
+102,15/07/2026,Semi Finals,Argentina,England,6,2,1
+103,19/07/2026,Final,Spain,Argentina,9,1,0
+103,19/07/2026,Final,Argentina,Spain,4,0,1
