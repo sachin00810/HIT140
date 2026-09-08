@@ -6,9 +6,9 @@ Input : data/raw/wc2026_match_corners_raw.csv   one row per team per match, with
                                             columns): match_number, date, stage,
                                             team, opponent, corners, goals_for,
                                             goals_against.
-Output: data/wc2026_match_corners.csv        the same rows, cleaned, with the
-                                            outcome label and helper columns the
-                                            analysis needs.
+Output: data/processed/wc2026_match_corners.csv   the same rows, cleaned, with
+                                            the outcome label and helper columns
+                                            the analysis needs.
 
 Also read (reference only, never used to change a value):
         data/raw/wc2026_team_corner_totals.csv   the source website's SEPARATE
@@ -31,7 +31,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RAW_PATH = PROJECT_ROOT / "data" / "raw" / "wc2026_match_corners_raw.csv"
 AGG_PATH = PROJECT_ROOT / "data" / "raw" / "wc2026_team_corner_totals.csv"
-OUT_PATH = PROJECT_ROOT / "data" / "wc2026_match_corners.csv"
+OUT_PATH = PROJECT_ROOT / "data" / "processed" / "wc2026_match_corners.csv"
 
 RAW_COLUMNS = ["match_number", "date", "stage", "team", "opponent",
                "corners", "goals_for", "goals_against"]

@@ -8,10 +8,10 @@ corners won by teams that **win** their match compared with teams that **lose**?
 
 | Folder / file | What it is |
 |---|---|
-| `data/raw/wc2026_match_corners_raw.csv` | Raw input — one row per team **per match**, fields straight from the source fixtures table (no derived columns). 206 rows, 103 matches. The unbuilt form of `data/wc2026_match_corners.csv`. |
+| `data/raw/wc2026_match_corners_raw.csv` | Raw input — one row per team **per match**, fields straight from the source fixtures table (no derived columns). 206 rows, 103 matches. The unbuilt form of `data/processed/wc2026_match_corners.csv`. |
 | `data/raw/wc2026_team_corner_totals.csv` | The source site's separate **per-team** aggregate view — one row per team, corners totalled over the whole tournament. Reference only: cross-checked against the match-level totals, never used to change a value. |
-| `data/wc2026_match_corners.csv` | Analysis dataset — the raw rows cleaned, with `outcome`, `goal_diff`, `is_knockout` added. Built by `build_dataset.py`. |
-| `script/build_dataset.py` | `data/raw/` → `data/wc2026_match_corners.csv`: name fixes, integrity checks, derived columns, cross-check against the aggregate view. |
+| `data/processed/wc2026_match_corners.csv` | Analysis dataset — the raw rows cleaned, with `outcome`, `goal_diff`, `is_knockout` added. Built by `build_dataset.py`. |
+| `script/build_dataset.py` | `data/raw/` → `data/processed/wc2026_match_corners.csv`: name fixes, integrity checks, derived columns, cross-check against the aggregate view. |
 | `script/analysis.py` | The analysis: wrangling, stratified sampling, descriptives, 95% CIs, Welch t-test, figure. |
 | `output/` | Everything `analysis.py` produces (regenerated on each run). |
 
@@ -25,7 +25,7 @@ python script/analysis.py          # run the analysis, write output/
 ```
 
 Paths are resolved from the project root, so the working directory does not matter.
-`build_dataset.py` reproduces the committed `data/wc2026_match_corners.csv` byte for byte.
+`build_dataset.py` reproduces the committed `data/processed/wc2026_match_corners.csv` byte for byte.
 
 ### Outputs written to `output/`
 

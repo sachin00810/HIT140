@@ -33,10 +33,10 @@ DATA PROVENANCE — put this on your slide
   observation and were verified twice.
 
 HOW TO RUN
-  python script/build_dataset.py     # data/raw/ -> data/wc2026_match_corners.csv
+  python script/build_dataset.py     # data/raw/ -> data/processed/wc2026_match_corners.csv
   python script/analysis.py          # this script
 
-  Reads : data/wc2026_match_corners.csv
+  Reads : data/processed/wc2026_match_corners.csv
   Writes: output/corners_winners_vs_losers.png
           output/descriptive_statistics.txt   and .csv
           output/confidence_intervals.txt
@@ -61,7 +61,7 @@ from scipy import stats
 # and output/) so the script runs the same no matter what the working directory
 # is.
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = PROJECT_ROOT / "data" / "wc2026_match_corners.csv"
+DATA_PATH = PROJECT_ROOT / "data" / "processed" / "wc2026_match_corners.csv"
 FIGURE_DIR = PROJECT_ROOT / "output"
 OUTPUT_DIR = PROJECT_ROOT / "output"      # descriptive stats, CIs and test results
 TASK_NAME = "corners_winners_vs_losers"
