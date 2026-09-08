@@ -1,10 +1,10 @@
 """Build the analysis-ready match-level corners dataset.
 
-Input : data/raw/wc2026_fixtures_raw.csv    one row per team per match, with the
-                                            fields taken straight from the source
-                                            fixtures table (no derived columns):
-                                            match_number, date, stage, team,
-                                            opponent, corners, goals_for,
+Input : data/raw/wc2026_match_corners_raw.csv   one row per team per match, with
+                                            the fields taken straight from the
+                                            source fixtures table (no derived
+                                            columns): match_number, date, stage,
+                                            team, opponent, corners, goals_for,
                                             goals_against.
 Output: data/wc2026_match_corners.csv        the same rows, cleaned, with the
                                             outcome label and helper columns the
@@ -28,7 +28,7 @@ import numpy as np
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-RAW_PATH = PROJECT_ROOT / "data" / "raw" / "wc2026_fixtures_raw.csv"
+RAW_PATH = PROJECT_ROOT / "data" / "raw" / "wc2026_match_corners_raw.csv"
 AGG_PATH = PROJECT_ROOT / "data" / "raw_data.csv"
 OUT_PATH = PROJECT_ROOT / "data" / "wc2026_match_corners.csv"
 
