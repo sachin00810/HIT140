@@ -11,14 +11,15 @@ Output: data/wc2026_match_corners.csv        the same rows, cleaned, with the
                                             analysis needs.
 
 Also read (reference only, never used to change a value):
-        data/raw_data.csv                   the source website's SEPARATE
-                                            per-team aggregate view. It is a
-                                            different granularity (one row per
-                                            team) and is known to disagree with
-                                            the fixtures view for a handful of
-                                            teams. This script reports those
-                                            differences so they stay visible; it
-                                            does not act on them.
+        data/raw/wc2026_team_corner_totals.csv   the source website's SEPARATE
+                                            per-team aggregate view (one row per
+                                            team, corners totalled over the whole
+                                            tournament). It is a different
+                                            granularity and is known to disagree
+                                            with the match-level view for a
+                                            handful of teams. This script reports
+                                            those differences so they stay
+                                            visible; it does not act on them.
 
 Run this first, then script/analysis.py.
 """
@@ -29,7 +30,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RAW_PATH = PROJECT_ROOT / "data" / "raw" / "wc2026_match_corners_raw.csv"
-AGG_PATH = PROJECT_ROOT / "data" / "raw_data.csv"
+AGG_PATH = PROJECT_ROOT / "data" / "raw" / "wc2026_team_corner_totals.csv"
 OUT_PATH = PROJECT_ROOT / "data" / "wc2026_match_corners.csv"
 
 RAW_COLUMNS = ["match_number", "date", "stage", "team", "opponent",
