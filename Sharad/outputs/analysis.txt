@@ -1,0 +1,82 @@
+================================================================================
+HIT140 FOUNDATIONS OF DATA SCIENCE - STATISTICAL ANALYSIS REPORT
+FIFA World Cup 2026: Pass-Completion Percentage vs. Match Outcome
+
+================================================================================
+1. RESEARCH QUESTION & HYPOTHESES
+================================================================================
+
+Research Question:
+  "Is average pass-completion percentage higher for teams that win than for 
+   teams that lose in FIFA World Cup 2026?"
+
+Hypotheses:
+  Null Hypothesis (H0)        : μ_win = μ_loss
+  Alternative Hypothesis (H1) : μ_win > μ_loss
+  Significance Level          : α = 0.05 (One-tailed test)
+
+================================================================================
+2. DESCRIPTIVE STATISTICS
+================================================================================
+
+Group         n     Mean (%)    Std Dev (%)    Median (%)    Min (%)    Max (%)    IQR (%)
+--------------------------------------------------------------------------------------
+Win          79       85.15           2.83         85.00      79.10      93.20       3.85
+Loss         79       79.20           3.13         79.10      73.30      91.20       3.20
+--------------------------------------------------------------------------------------
+Difference  ---        5.95           ----          5.90        ---        ---        ---
+
+================================================================================
+3. ASSUMPTION TESTING
+================================================================================
+
+1. Continuous Variable: Satisfied (pass completion % is continuous ratio data).
+2. Independence       : Satisfied (separate team-match observations, mutually exclusive).
+3. Normality Check    :
+   - Win Group  : Shapiro-Wilk W = 0.9881, p = 0.6825 (Skewness = 0.281)
+   - Loss Group : Shapiro-Wilk W = 0.9599, p = 0.0141 (Skewness = 0.700)
+   - CLT Justification: Both groups have n = 79 >= 30; sampling distribution of mean is normal.
+4. Homogeneity of Variance (Levene's Test):
+   - F = 0.0614, p = 0.8046
+   - Assessment: p > 0.05. Homogeneity of variance is assumed. Equal variance t-test utilized.
+
+================================================================================
+4. INFERENTIAL STATISTICS: 95% CONFIDENCE INTERVAL
+================================================================================
+
+95% Confidence Interval for Mean Difference (μ_win - μ_loss):
+  - Point Estimate (Mean Difference)      : 5.95
+  - Standard Error of Difference (SE)     : 0.475
+  - Critical t-value (t_crit, df = 156)   : 1.9753
+  - Margin of Error (t_crit * SE)         : 0.938
+  - 95% Confidence Interval               : [5.02, 6.89]
+
+
+================================================================================
+5. INFERENTIAL TEST RESULTS (INDEPENDENT TWO-SAMPLE T-TEST)
+================================================================================
+
+Parameter / Statistic                       Value
+--------------------------------------------------------------------------------
+Sample Size - Win (n1)                    : 79
+Sample Size - Loss (n2)                   : 79
+Mean - Win (x̄1)                           : 85.15%
+Mean - Loss (x̄2)                          : 79.20%
+Mean Difference (x̄1 - x̄2)                 : 5.95
+Pooled Standard Deviation (s_pooled)      : 2.99
+Standard Error of Difference (SE)         : 0.475
+Degrees of Freedom (df)                   : 156
+t-Statistic                               : 12.5349
+Critical t-Value (α = 0.05, df = 156)     : 1.9753
+Two-Tailed p-value                        : 2.2367e-25
+One-Tailed p-value (H1: μ_win > μ_loss)   : 1.1184e-25  (p < 0.001)
+95% Confidence Interval for Difference    : [5.02, 6.89]
+Effect Size (Cohen's d)                   : 1.994 (Large)
+Statistical Decision                      : Reject H0
+--------------------------------------------------------------------------------
+
+
+Interpretation:
+  At the α = 0.05 significance level, there is statistically significant evidence to reject the null hypothesis (t(156.0) = 12.53, p < 0.001, one-tailed). Winning teams achieved a significantly higher average pass-completion (M = 85.15%, SD = 2.83%) than losing teams (M = 79.20%, SD = 3.13%), with a mean difference of 5.95 (95% CI [5.02, 6.89]). The standardized effect size is Cohen's d = 1.99, indicating a large practical effect of passing accuracy on match success.
+
+================================================================================

@@ -1,0 +1,104 @@
+match_id,date,home_team,away_team,home_score,away_score,home_pass_completion,away_pass_completion
+1,11/06/2026,Mexico,South Africa,2,0,87.4,78.6
+2,12/06/2026,South Korea,Czech Republic,2,1,83.4,77.6
+3,12/06/2026,Canada,Bosnia & Herzegovina,1,1,85.8,84.8
+4,13/06/2026,USA,Paraguay,4,1,83.3,77.7
+5,13/06/2026,Qatar,Switzerland,1,1,74.5,80.2
+6,13/06/2026,Brazil,Morocco,1,1,80.8,76.6
+7,14/06/2026,Haiti,Scotland,0,1,80.6,80.9
+8,14/06/2026,Australia,Turkey,2,0,80.5,79.3
+9,14/06/2026,Germany,Curacao,7,1,83.8,78.5
+10,14/06/2026,Netherlands,Japan,2,2,82.7,76.3
+11,15/06/2026,Ivory Coast,Ecuador,1,0,86.0,73.8
+12,15/06/2026,Sweden,Tunisia,5,1,86.6,80.6
+13,15/06/2026,Spain,Cape Verde,0,0,78.9,79.5
+14,15/06/2026,Belgium,Egypt,1,1,80.5,82.2
+15,15/06/2026,Saudi Arabia,Uruguay,1,1,81.5,81.2
+16,16/06/2026,Iran,New Zealand,2,2,83.5,84.0
+17,16/06/2026,France,Senegal,3,1,85.9,83.5
+18,16/06/2026,Iraq,Norway,1,4,75.4,82.0
+19,17/06/2026,Argentina,Algeria,3,0,84.1,81.9
+20,17/06/2026,Austria,Jordan,3,1,87.1,84.2
+21,17/06/2026,Portugal,D.R. Congo,1,1,73.2,83.7
+22,17/06/2026,England,Croatia,4,2,86.6,73.5
+23,18/06/2026,Ghana,Panama,1,0,89.3,78.6
+24,18/06/2026,Uzbekistan,Colombia,1,3,75.9,84.7
+25,18/06/2026,Czech Republic,South Africa,1,1,83.6,83.3
+26,18/06/2026,Switzerland,Bosnia & Herzegovina,4,1,86.3,81.4
+27,18/06/2026,Canada,Qatar,6,0,82.3,78.4
+28,19/06/2026,Mexico,South Korea,1,0,85.0,80.1
+29,19/06/2026,USA,Australia,2,0,79.8,78.3
+30,19/06/2026,Scotland,Morocco,0,1,78.2,86.6
+31,20/06/2026,Brazil,Haiti,3,0,87.2,79.6
+32,20/06/2026,Turkey,Paraguay,0,1,74.3,84.6
+33,20/06/2026,Netherlands,Sweden,5,1,84.3,87.7
+34,20/06/2026,Germany,Ivory Coast,2,1,83.7,80.2
+35,21/06/2026,Ecuador,Curacao,0,0,86.3,82.5
+36,21/06/2026,Tunisia,Japan,0,4,83.6,81.1
+37,21/06/2026,Spain,Saudi Arabia,4,0,80.9,77.2
+38,21/06/2026,Belgium,Iran,0,0,74.9,82.4
+39,21/06/2026,Uruguay,Cape Verde,2,2,77.4,86.0
+40,22/06/2026,New Zealand,Egypt,1,3,81.7,82.1
+41,22/06/2026,Argentina,Austria,2,0,79.1,78.8
+42,22/06/2026,France,Iraq,3,0,85.7,82.1
+43,23/06/2026,Norway,Senegal,3,2,87.9,79.5
+44,23/06/2026,Jordan,Algeria,1,2,76.1,85.1
+45,23/06/2026,Portugal,Uzbekistan,5,0,85.0,77.8
+46,23/06/2026,England,Ghana,0,0,85.7,84.0
+47,24/06/2026,Panama,Croatia,0,1,75.5,87.3
+48,24/06/2026,Colombia,D.R. Congo,1,0,88.7,80.4
+49,24/06/2026,Bosnia & Herzegovina,Qatar,3,1,83.9,77.5
+50,24/06/2026,Switzerland,Canada,2,1,86.0,80.0
+51,24/06/2026,Morocco,Haiti,4,2,85.5,83.9
+52,24/06/2026,Scotland,Brazil,0,3,82.4,82.0
+53,25/06/2026,Czech Republic,Mexico,0,3,74.7,87.9
+54,25/06/2026,South Africa,South Korea,1,0,83.3,80.5
+55,25/06/2026,Curacao,Ivory Coast,0,2,79.9,86.2
+56,25/06/2026,Ecuador,Germany,2,1,83.4,74.9
+57,26/06/2026,Japan,Sweden,1,1,82.4,78.1
+58,26/06/2026,Tunisia,Netherlands,1,3,75.2,86.0
+59,26/06/2026,Paraguay,Australia,0,0,82.2,78.7
+60,26/06/2026,Turkey,USA,3,2,88.4,83.1
+61,26/06/2026,Norway,France,1,4,79.9,87.8
+62,26/06/2026,Senegal,Iraq,5,0,87.6,91.2
+63,27/06/2026,Cape Verde,Saudi Arabia,0,0,84.1,84.7
+64,27/06/2026,Uruguay,Spain,0,1,77.9,84.7
+65,27/06/2026,Egypt,Iran,1,1,89.9,73.1
+66,27/06/2026,New Zealand,Belgium,1,5,77.7,87.8
+67,27/06/2026,Croatia,Ghana,2,1,83.3,82.5
+68,27/06/2026,Panama,England,0,2,79.1,83.3
+69,28/06/2026,Colombia,Portugal,0,0,74.0,83.4
+70,28/06/2026,D.R. Congo,Uzbekistan,3,1,81.5,77.7
+71,28/06/2026,Algeria,Austria,3,3,81.3,83.8
+72,28/06/2026,Jordan,Argentina,1,3,77.2,83.3
+73,28/06/2026,South Africa,Canada,0,1,74.6,89.3
+74,29/06/2026,Brazil,Japan,2,1,91.8,83.2
+75,29/06/2026,Germany,Paraguay,1,1,86.2,80.4
+76,29/06/2026,Netherlands,Morocco,1,1,73.7,79.8
+77,30/06/2026,Ivory Coast,Norway,1,2,78.2,81.0
+78,30/06/2026,France,Sweden,3,0,83.5,79.4
+79,30/06/2026,Mexico,Ecuador,2,0,89.4,80.1
+80,01/07/2026,England,D.R. Congo,2,1,84.7,77.1
+81,01/07/2026,Belgium,Senegal,3,2,85.3,81.0
+82,01/07/2026,USA,Bosnia & Herzegovina,2,0,93.2,73.3
+83,02/07/2026,Spain,Austria,3,0,85.1,77.7
+84,02/07/2026,Portugal,Croatia,2,1,82.4,81.5
+85,02/07/2026,Switzerland,Algeria,2,0,88.7,79.5
+86,03/07/2026,Australia,Egypt,1,1,80.0,80.6
+87,03/07/2026,Argentina,Cape Verde,3,2,84.9,78.9
+88,03/07/2026,Colombia,Ghana,1,0,87.9,78.8
+89,04/07/2026,Canada,Morocco,0,3,80.9,86.9
+90,04/07/2026,Paraguay,France,0,1,82.4,84.9
+91,05/07/2026,Brazil,Norway,1,2,80.1,86.0
+92,05/07/2026,Mexico,England,2,3,77.1,91.4
+93,06/07/2026,Portugal,Spain,0,1,82.2,88.5
+94,06/07/2026,USA,Belgium,1,4,79.1,81.3
+95,07/07/2026,Argentina,Egypt,3,2,88.0,79.7
+96,07/07/2026,Switzerland,Colombia,0,0,81.6,80.1
+97,09/07/2026,France,Morocco,2,0,85.0,76.8
+98,10/07/2026,Spain,Belgium,2,1,82.7,78.8
+99,11/07/2026,Norway,England,1,2,73.5,81.5
+100,11/07/2026,Argentina,Switzerland,3,1,83.6,78.4
+101,14/07/2026,France,Spain,0,2,82.0,83.8
+102,15/07/2026,England,Argentina,1,2,80.1,83.2
+103,19/07/2026,Spain,Argentina,1,0,86.9,76.4
