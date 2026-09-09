@@ -1,0 +1,3 @@
+Comparison_Scope,Test_Type,Alternative_Hypothesis,t_Statistic,df,p_Value,Statistically_Significant (alpha=0.05),Mean_Difference,Cohen_d
+Tournament Stage Comparison,Welch's t-test (Unequal Variance),One-sided Greater (mu_KO > mu_GS),1.936,49.06,0.0293,Yes,3.0309,0.4459
+Tournament Stage Comparison,Welch's t-test (Unequal Variance),Two-sided (mu_KO != mu_GS),1.936,49.06,0.0586,No,3.0309,0.4459

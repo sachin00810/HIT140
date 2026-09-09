@@ -1,0 +1,99 @@
+================================================================================
+                    STATISTICAL ANALYSIS SUMMARY REPORT
+                  FIFA World Cup 2026 Match Fouls Analysis
+================================================================================
+--------------------------------------------------------------------------------
+1. ANALYTICAL QUESTION
+--------------------------------------------------------------------------------
+"Did matches in the Knockout Stage have significantly more fouls on average
+than matches in the Group Stage?"
+
+--------------------------------------------------------------------------------
+2. DATA PREPARATION AND SAMPLING SUMMARY
+--------------------------------------------------------------------------------
+- Raw Dataset:        data/raw/Rawdata.csv (Read-only; unmodified)
+- Processed Dataset:  data/processed/matches_fouls_processed.csv
+- Metric Analyzed:    Total fouls committed per match (Fouls_T1 + Fouls_T2)
+
+Samples:
+  * Sample 1 (Group Stage Matches):    n1 = 72 matches (>= 30)
+  * Sample 2 (Knockout Stage Matches): n2 = 31 matches (>= 30)
+  Note: Both sample sizes naturally exceed the n >= 30 Central Limit Theorem
+        threshold, providing robust degrees of freedom and statistical power.
+
+--------------------------------------------------------------------------------
+3. DESCRIPTIVE STATISTICS
+--------------------------------------------------------------------------------
+Metric                       Group Stage (n=72)        Knockout Stage (n=31)    
+--------------------------------------------------------------------------------
+Mean Fouls:                  22.2917                   25.3226                  
+Standard Deviation (SD):     6.4096                    7.6350                   
+Variance (s^2):              41.0827                   58.2925                  
+Median:                      22.0000                   24.0000                  
+25th Percentile (Q1):        17.7500                   21.5000                  
+75th Percentile (Q3):        27.0000                   28.0000                  
+Interquartile Range (IQR):   9.2500                    6.5000                   
+Minimum:                     10.0000                   13.0000                  
+Maximum:                     44.0000                   46.0000                  
+Skewness:                    0.5426                    0.9965                   
+Kurtosis:                    0.7883                    1.2051                   
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+4. INFERENTIAL STATISTICS: CONFIDENCE INTERVALS (95% CI)
+--------------------------------------------------------------------------------
+* Group Stage Mean (95% CI):
+  22.2917 fouls [95% CI: 20.7855 to 23.7978]
+  (Standard Error SE = 0.7554, df = 71)
+
+* Knockout Stage Mean (95% CI):
+  25.3226 fouls [95% CI: 22.5221 to 28.1231]
+  (Standard Error SE = 1.3713, df = 30)
+
+* Difference in Means (Knockout - Group Stage):
+  +3.0309 fouls [95% CI: -0.1151 to 6.1769]
+  (SE_diff = 1.5656, Welch df = 49.06)
+
+--------------------------------------------------------------------------------
+5. INFERENTIAL STATISTICS: HYPOTHESIS TESTING (TWO-SAMPLE t-TEST)
+--------------------------------------------------------------------------------
+* Hypotheses Formulation:
+  - Null Hypothesis (H0): Matches in the Knockout Stage did NOT have
+    significantly more fouls on average than matches in the Group Stage.
+    H0: mu_Knockout <= mu_Group Stage
+  - Alternative Hypothesis (H1): Matches in the Knockout Stage had
+    significantly MORE fouls on average than matches in the Group Stage.
+    H1: mu_Knockout > mu_Group Stage (Directional Right-Tailed / One-Sided)
+
+* Assumption Testing:
+  - Normality (Shapiro-Wilk Test):
+    * Group Stage:    W = 0.9715, p = 0.1013 (Normally distributed, p > 0.05)
+    * Knockout Stage: W = 0.9191, p = 0.0224 (Mild skew; valid by CLT n=31 >= 30)
+  - Homogeneity of Variance (Levene's Test):
+    * Statistic = 0.0503, p = 0.8230 (Equal variance not rejected)
+
+* Test Executed: Independent Welch's Two-Sample t-Test (Unequal Variances)
+  - Test Statistic (t):        1.9360
+  - Degrees of Freedom (df):   49.06
+  - Directional One-Sided p:   0.0293  *** STATISTICALLY SIGNIFICANT (p < 0.05) ***
+  - Two-Sided p-value:         0.0586
+  - Effect Size (Cohen's d):   0.4459  (Moderate positive effect)
+
+--------------------------------------------------------------------------------
+6. STATISTICAL DECISION & FINAL CONCLUSION
+--------------------------------------------------------------------------------
+Statistical Decision:
+  At the standard alpha = 0.05 significance level, the directional one-tailed
+  p-value (p = 0.0293) is strictly less than 0.05.
+  Therefore, we REJECT the null hypothesis (H0) in favor of the alternative hypothesis (H1).
+
+Scientific Conclusion:
+  YES. Matches in the Knockout Stage had significantly MORE fouls on average
+  than matches in the Group Stage (Mean Difference = +3.03 fouls/match,
+  Welch t(49.06) = 1.9360, p = 0.0293, Cohen's d = 0.4459).
+
+  In football tournament dynamics, single-elimination knockout matches carry
+  substantially higher competitive tension, elimination risk, tactical defensive
+  fouling to prevent counterattacks, and potential extra time, driving a statistically
+  significant increase in match fouls compared to the group stage.
+================================================================================

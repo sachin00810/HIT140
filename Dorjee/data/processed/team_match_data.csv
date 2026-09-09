@@ -1,0 +1,207 @@
+Date,Match_ID,Stage,Team,Opponent,Fouls,Yellow_Cards,Red_Cards,Score_For,Score_Against,xG,Shots,Shots_On_Target,Stage_Type,Reached_Knockout,Tournament_Status
+11/06/2026,1,GROUP STAGE,Mexico,South Africa,12.0,1.0,1.0,2,0,1.46,16.0,4.0,Group Stage,True,Knockout Stage
+11/06/2026,1,GROUP STAGE,South Africa,Mexico,11.0,2.0,2.0,0,2,0.07,3.0,2.0,Group Stage,True,Knockout Stage
+12/06/2026,2,GROUP STAGE,Czech Republic,South Korea,16.0,0.0,0.0,1,2,0.83,7.0,4.0,Group Stage,False,Eliminated in Group Stage
+12/06/2026,2,GROUP STAGE,South Korea,Czech Republic,9.0,1.0,0.0,2,1,2.3,15.0,6.0,Group Stage,False,Eliminated in Group Stage
+12/06/2026,3,GROUP STAGE,Bosnia & Herzegovina,Canada,20.0,3.0,0.0,1,1,0.98,8.0,3.0,Group Stage,True,Knockout Stage
+12/06/2026,3,GROUP STAGE,Canada,Bosnia & Herzegovina,10.0,2.0,0.0,1,1,1.25,13.0,4.0,Group Stage,True,Knockout Stage
+13/06/2026,4,GROUP STAGE,Paraguay,USA,17.0,5.0,0.0,1,4,0.54,9.0,1.0,Group Stage,True,Knockout Stage
+13/06/2026,4,GROUP STAGE,USA,Paraguay,13.0,1.0,0.0,4,1,1.42,16.0,6.0,Group Stage,True,Knockout Stage
+13/06/2026,5,GROUP STAGE,Qatar,Switzerland,12.0,2.0,0.0,1,1,0.6,6.0,3.0,Group Stage,False,Eliminated in Group Stage
+13/06/2026,5,GROUP STAGE,Switzerland,Qatar,11.0,1.0,0.0,1,1,3.2,26.0,7.0,Group Stage,True,Knockout Stage
+13/06/2026,6,GROUP STAGE,Brazil,Morocco,16.0,2.0,0.0,1,1,1.26,12.0,5.0,Group Stage,True,Knockout Stage
+13/06/2026,6,GROUP STAGE,Morocco,Brazil,14.0,0.0,0.0,1,1,1.37,14.0,3.0,Group Stage,True,Knockout Stage
+14/06/2026,7,GROUP STAGE,Haiti,Scotland,23.0,1.0,0.0,0,1,1.05,15.0,2.0,Group Stage,False,Eliminated in Group Stage
+14/06/2026,7,GROUP STAGE,Scotland,Haiti,21.0,3.0,0.0,1,0,1.05,9.0,2.0,Group Stage,False,Eliminated in Group Stage
+14/06/2026,8,GROUP STAGE,Australia,Turkey,12.0,0.0,0.0,2,0,1.18,9.0,4.0,Group Stage,True,Knockout Stage
+14/06/2026,8,GROUP STAGE,Turkey,Australia,4.0,1.0,0.0,0,2,1.36,30.0,8.0,Group Stage,False,Eliminated in Group Stage
+14/06/2026,9,GROUP STAGE,Curacao,Germany,11.0,0.0,0.0,1,7,0.41,8.0,2.0,Group Stage,False,Eliminated in Group Stage
+14/06/2026,9,GROUP STAGE,Germany,Curacao,18.0,0.0,0.0,7,1,4.22,26.0,12.0,Group Stage,True,Knockout Stage
+14/06/2026,10,GROUP STAGE,Japan,Netherlands,7.0,0.0,0.0,2,2,0.59,10.0,3.0,Group Stage,True,Knockout Stage
+14/06/2026,10,GROUP STAGE,Netherlands,Japan,7.0,3.0,0.0,2,2,0.78,10.0,6.0,Group Stage,True,Knockout Stage
+15/06/2026,11,GROUP STAGE,Ecuador,Ivory Coast,13.0,1.0,0.0,0,1,1.01,12.0,1.0,Group Stage,True,Knockout Stage
+15/06/2026,11,GROUP STAGE,Ivory Coast,Ecuador,10.0,3.0,0.0,1,0,1.52,15.0,4.0,Group Stage,True,Knockout Stage
+15/06/2026,12,GROUP STAGE,Sweden,Tunisia,10.0,0.0,0.0,5,1,1.33,13.0,7.0,Group Stage,True,Knockout Stage
+15/06/2026,12,GROUP STAGE,Tunisia,Sweden,8.0,1.0,0.0,1,5,0.28,6.0,2.0,Group Stage,False,Eliminated in Group Stage
+15/06/2026,13,GROUP STAGE,Cape Verde,Spain,1.0,1.0,0.0,0,0,0.2,6.0,1.0,Group Stage,True,Knockout Stage
+15/06/2026,13,GROUP STAGE,Spain,Cape Verde,10.0,1.0,0.0,0,0,2.1,27.0,7.0,Group Stage,True,Knockout Stage
+15/06/2026,14,GROUP STAGE,Belgium,Egypt,15.0,2.0,0.0,1,1,1.35,15.0,3.0,Group Stage,True,Knockout Stage
+15/06/2026,14,GROUP STAGE,Egypt,Belgium,15.0,2.0,0.0,1,1,1.08,14.0,3.0,Group Stage,True,Knockout Stage
+15/06/2026,15,GROUP STAGE,Saudi Arabia,Uruguay,11.0,1.0,0.0,1,1,0.66,7.0,3.0,Group Stage,False,Eliminated in Group Stage
+15/06/2026,15,GROUP STAGE,Uruguay,Saudi Arabia,6.0,0.0,0.0,1,1,1.72,27.0,10.0,Group Stage,False,Eliminated in Group Stage
+16/06/2026,16,GROUP STAGE,Iran,New Zealand,10.0,1.0,0.0,2,2,1.5,17.0,4.0,Group Stage,False,Eliminated in Group Stage
+16/06/2026,16,GROUP STAGE,New Zealand,Iran,8.0,0.0,0.0,2,2,1.24,14.0,8.0,Group Stage,False,Eliminated in Group Stage
+16/06/2026,17,GROUP STAGE,France,Senegal,5.0,0.0,0.0,3,1,1.79,11.0,8.0,Group Stage,True,Knockout Stage
+16/06/2026,17,GROUP STAGE,Senegal,France,9.0,0.0,0.0,1,3,0.53,6.0,2.0,Group Stage,True,Knockout Stage
+16/06/2026,18,GROUP STAGE,Iraq,Norway,12.0,1.0,0.0,1,4,0.8,11.0,1.0,Group Stage,False,Eliminated in Group Stage
+16/06/2026,18,GROUP STAGE,Norway,Iraq,13.0,0.0,0.0,4,1,2.52,12.0,5.0,Group Stage,True,Knockout Stage
+17/06/2026,19,GROUP STAGE,Algeria,Argentina,8.0,0.0,0.0,0,3,0.32,7.0,0.0,Group Stage,True,Knockout Stage
+17/06/2026,19,GROUP STAGE,Argentina,Algeria,13.0,0.0,0.0,3,0,1.26,10.0,6.0,Group Stage,True,Knockout Stage
+17/06/2026,20,GROUP STAGE,Austria,Jordan,12.0,1.0,0.0,3,1,1.66,11.0,4.0,Group Stage,True,Knockout Stage
+17/06/2026,20,GROUP STAGE,Jordan,Austria,7.0,0.0,0.0,1,3,0.53,11.0,4.0,Group Stage,False,Eliminated in Group Stage
+17/06/2026,21,GROUP STAGE,D.R. Congo,Portugal,10.0,1.0,0.0,1,1,0.87,8.0,2.0,Group Stage,True,Knockout Stage
+17/06/2026,21,GROUP STAGE,Portugal,D.R. Congo,9.0,3.0,0.0,1,1,0.65,7.0,1.0,Group Stage,True,Knockout Stage
+17/06/2026,22,GROUP STAGE,Croatia,England,12.0,0.0,0.0,2,4,0.7,10.0,5.0,Group Stage,True,Knockout Stage
+17/06/2026,22,GROUP STAGE,England,Croatia,10.0,0.0,0.0,4,2,3.2,22.0,11.0,Group Stage,True,Knockout Stage
+18/06/2026,23,GROUP STAGE,Ghana,Panama,9.0,1.0,0.0,1,0,1.31,8.0,2.0,Group Stage,True,Knockout Stage
+18/06/2026,23,GROUP STAGE,Panama,Ghana,11.0,2.0,0.0,0,1,0.73,11.0,4.0,Group Stage,False,Eliminated in Group Stage
+18/06/2026,24,GROUP STAGE,Colombia,Uzbekistan,11.0,1.0,0.0,3,1,1.61,15.0,4.0,Group Stage,True,Knockout Stage
+18/06/2026,24,GROUP STAGE,Uzbekistan,Colombia,14.0,1.0,0.0,1,3,1.16,8.0,2.0,Group Stage,False,Eliminated in Group Stage
+18/06/2026,25,GROUP STAGE,Czech Republic,South Africa,12.0,1.0,0.0,1,1,1.02,14.0,3.0,Group Stage,False,Eliminated in Group Stage
+18/06/2026,25,GROUP STAGE,South Africa,Czech Republic,10.0,2.0,0.0,1,1,1.38,17.0,4.0,Group Stage,True,Knockout Stage
+18/06/2026,26,GROUP STAGE,Bosnia & Herzegovina,Switzerland,18.0,2.0,1.0,1,4,0.23,5.0,3.0,Group Stage,True,Knockout Stage
+18/06/2026,26,GROUP STAGE,Switzerland,Bosnia & Herzegovina,7.0,1.0,0.0,4,1,2.06,13.0,7.0,Group Stage,True,Knockout Stage
+18/06/2026,27,GROUP STAGE,Canada,Qatar,9.0,1.0,0.0,6,0,4.6,32.0,10.0,Group Stage,True,Knockout Stage
+18/06/2026,27,GROUP STAGE,Qatar,Canada,10.0,1.0,2.0,0,6,0.22,2.0,0.0,Group Stage,False,Eliminated in Group Stage
+19/06/2026,28,GROUP STAGE,Mexico,South Korea,9.0,0.0,0.0,1,0,0.53,8.0,4.0,Group Stage,True,Knockout Stage
+19/06/2026,28,GROUP STAGE,South Korea,Mexico,7.0,2.0,0.0,0,1,0.91,9.0,2.0,Group Stage,False,Eliminated in Group Stage
+19/06/2026,29,GROUP STAGE,Australia,USA,16.0,4.0,0.0,0,2,0.35,5.0,2.0,Group Stage,True,Knockout Stage
+19/06/2026,29,GROUP STAGE,USA,Australia,12.0,3.0,0.0,2,0,1.08,10.0,2.0,Group Stage,True,Knockout Stage
+19/06/2026,30,GROUP STAGE,Morocco,Scotland,8.0,1.0,0.0,1,0,0.99,12.0,2.0,Group Stage,True,Knockout Stage
+19/06/2026,30,GROUP STAGE,Scotland,Morocco,11.0,1.0,0.0,0,1,0.51,6.0,0.0,Group Stage,False,Eliminated in Group Stage
+20/06/2026,31,GROUP STAGE,Brazil,Haiti,13.0,1.0,0.0,3,0,1.75,8.0,5.0,Group Stage,True,Knockout Stage
+20/06/2026,31,GROUP STAGE,Haiti,Brazil,14.0,3.0,0.0,0,3,0.23,7.0,3.0,Group Stage,False,Eliminated in Group Stage
+20/06/2026,32,GROUP STAGE,Paraguay,Turkey,15.0,1.0,1.0,1,0,0.32,7.0,2.0,Group Stage,True,Knockout Stage
+20/06/2026,32,GROUP STAGE,Turkey,Paraguay,14.0,1.0,0.0,0,1,2.17,32.0,5.0,Group Stage,False,Eliminated in Group Stage
+20/06/2026,33,GROUP STAGE,Netherlands,Sweden,9.0,0.0,0.0,5,1,2.61,10.0,7.0,Group Stage,True,Knockout Stage
+20/06/2026,33,GROUP STAGE,Sweden,Netherlands,12.0,3.0,0.0,1,5,1.01,16.0,8.0,Group Stage,True,Knockout Stage
+20/06/2026,34,GROUP STAGE,Germany,Ivory Coast,5.0,0.0,0.0,2,1,1.89,16.0,7.0,Group Stage,True,Knockout Stage
+20/06/2026,34,GROUP STAGE,Ivory Coast,Germany,7.0,0.0,0.0,1,2,1.22,9.0,2.0,Group Stage,True,Knockout Stage
+21/06/2026,35,GROUP STAGE,Curacao,Ecuador,10.0,5.0,0.0,0,0,0.5,10.0,3.0,Group Stage,False,Eliminated in Group Stage
+21/06/2026,35,GROUP STAGE,Ecuador,Curacao,7.0,1.0,0.0,0,0,2.84,27.0,15.0,Group Stage,True,Knockout Stage
+21/06/2026,36,GROUP STAGE,Japan,Tunisia,15.0,0.0,0.0,4,0,2.13,11.0,5.0,Group Stage,True,Knockout Stage
+21/06/2026,36,GROUP STAGE,Tunisia,Japan,8.0,0.0,0.0,0,4,0.05,2.0,0.0,Group Stage,False,Eliminated in Group Stage
+21/06/2026,37,GROUP STAGE,Saudi Arabia,Spain,2.0,2.0,0.0,0,4,0.14,3.0,1.0,Group Stage,False,Eliminated in Group Stage
+21/06/2026,37,GROUP STAGE,Spain,Saudi Arabia,10.0,0.0,0.0,4,0,2.3,22.0,8.0,Group Stage,True,Knockout Stage
+21/06/2026,38,GROUP STAGE,Belgium,Iran,7.0,1.0,1.0,0,0,1.79,23.0,7.0,Group Stage,True,Knockout Stage
+21/06/2026,38,GROUP STAGE,Iran,Belgium,9.0,1.0,0.0,0,0,0.62,7.0,3.0,Group Stage,False,Eliminated in Group Stage
+21/06/2026,39,GROUP STAGE,Cape Verde,Uruguay,4.0,2.0,0.0,2,2,0.88,12.0,4.0,Group Stage,True,Knockout Stage
+21/06/2026,39,GROUP STAGE,Uruguay,Cape Verde,11.0,2.0,0.0,2,2,2.32,17.0,2.0,Group Stage,False,Eliminated in Group Stage
+22/06/2026,40,GROUP STAGE,Egypt,New Zealand,8.0,1.0,0.0,3,1,1.87,19.0,7.0,Group Stage,True,Knockout Stage
+22/06/2026,40,GROUP STAGE,New Zealand,Egypt,14.0,2.0,0.0,1,3,1.24,11.0,5.0,Group Stage,False,Eliminated in Group Stage
+22/06/2026,41,GROUP STAGE,Argentina,Austria,13.0,2.0,0.0,2,0,2.36,12.0,5.0,Group Stage,True,Knockout Stage
+22/06/2026,41,GROUP STAGE,Austria,Argentina,13.0,2.0,0.0,0,2,0.53,6.0,1.0,Group Stage,True,Knockout Stage
+22/06/2026,42,GROUP STAGE,France,Iraq,8.0,0.0,0.0,3,0,2.67,19.0,5.0,Group Stage,True,Knockout Stage
+22/06/2026,42,GROUP STAGE,Iraq,France,4.0,1.0,0.0,0,3,0.63,4.0,0.0,Group Stage,False,Eliminated in Group Stage
+23/06/2026,43,GROUP STAGE,Norway,Senegal,13.0,0.0,0.0,3,2,2.2,13.0,7.0,Group Stage,True,Knockout Stage
+23/06/2026,43,GROUP STAGE,Senegal,Norway,5.0,0.0,0.0,2,3,1.72,16.0,4.0,Group Stage,True,Knockout Stage
+23/06/2026,44,GROUP STAGE,Algeria,Jordan,6.0,1.0,0.0,2,1,1.89,17.0,8.0,Group Stage,True,Knockout Stage
+23/06/2026,44,GROUP STAGE,Jordan,Algeria,11.0,1.0,0.0,1,2,0.63,8.0,4.0,Group Stage,False,Eliminated in Group Stage
+23/06/2026,45,GROUP STAGE,Portugal,Uzbekistan,14.0,1.0,0.0,5,0,2.61,17.0,9.0,Group Stage,True,Knockout Stage
+23/06/2026,45,GROUP STAGE,Uzbekistan,Portugal,15.0,1.0,0.0,0,5,0.24,7.0,2.0,Group Stage,False,Eliminated in Group Stage
+23/06/2026,46,GROUP STAGE,England,Ghana,14.0,1.0,0.0,0,0,1.36,19.0,3.0,Group Stage,True,Knockout Stage
+23/06/2026,46,GROUP STAGE,Ghana,England,24.0,1.0,0.0,0,0,0.17,2.0,1.0,Group Stage,True,Knockout Stage
+24/06/2026,47,GROUP STAGE,Croatia,Panama,12.0,1.0,0.0,1,0,1.65,6.0,2.0,Group Stage,True,Knockout Stage
+24/06/2026,47,GROUP STAGE,Panama,Croatia,19.0,1.0,0.0,0,1,0.55,8.0,1.0,Group Stage,False,Eliminated in Group Stage
+24/06/2026,48,GROUP STAGE,Colombia,D.R. Congo,12.0,2.0,0.0,1,0,0.98,20.0,9.0,Group Stage,True,Knockout Stage
+24/06/2026,48,GROUP STAGE,D.R. Congo,Colombia,16.0,1.0,0.0,0,1,0.37,7.0,1.0,Group Stage,True,Knockout Stage
+24/06/2026,49,GROUP STAGE,Bosnia & Herzegovina,Qatar,9.0,1.0,0.0,3,1,0.68,14.0,5.0,Group Stage,True,Knockout Stage
+24/06/2026,49,GROUP STAGE,Qatar,Bosnia & Herzegovina,14.0,1.0,0.0,1,3,0.77,9.0,3.0,Group Stage,False,Eliminated in Group Stage
+24/06/2026,50,GROUP STAGE,Canada,Switzerland,13.0,2.0,0.0,1,2,1.66,13.0,7.0,Group Stage,True,Knockout Stage
+24/06/2026,50,GROUP STAGE,Switzerland,Canada,19.0,1.0,0.0,2,1,1.11,6.0,4.0,Group Stage,True,Knockout Stage
+24/06/2026,51,GROUP STAGE,Haiti,Morocco,18.0,3.0,0.0,2,4,0.67,9.0,2.0,Group Stage,False,Eliminated in Group Stage
+24/06/2026,51,GROUP STAGE,Morocco,Haiti,10.0,0.0,0.0,4,2,3.76,22.0,11.0,Group Stage,True,Knockout Stage
+24/06/2026,52,GROUP STAGE,Brazil,Scotland,11.0,2.0,0.0,3,0,4.33,21.0,9.0,Group Stage,True,Knockout Stage
+24/06/2026,52,GROUP STAGE,Scotland,Brazil,10.0,1.0,0.0,0,3,1.04,14.0,5.0,Group Stage,False,Eliminated in Group Stage
+25/06/2026,53,GROUP STAGE,Czech Republic,Mexico,9.0,0.0,0.0,0,3,0.53,13.0,1.0,Group Stage,False,Eliminated in Group Stage
+25/06/2026,53,GROUP STAGE,Mexico,Czech Republic,13.0,1.0,0.0,3,0,1.74,11.0,5.0,Group Stage,True,Knockout Stage
+25/06/2026,54,GROUP STAGE,South Africa,South Korea,7.0,1.0,0.0,1,0,1.16,13.0,4.0,Group Stage,True,Knockout Stage
+25/06/2026,54,GROUP STAGE,South Korea,South Africa,9.0,1.0,0.0,0,1,0.9,8.0,3.0,Group Stage,False,Eliminated in Group Stage
+25/06/2026,55,GROUP STAGE,Curacao,Ivory Coast,11.0,2.0,0.0,0,2,0.5,11.0,2.0,Group Stage,False,Eliminated in Group Stage
+25/06/2026,55,GROUP STAGE,Ivory Coast,Curacao,6.0,1.0,0.0,2,0,1.31,7.0,3.0,Group Stage,True,Knockout Stage
+25/06/2026,56,GROUP STAGE,Ecuador,Germany,15.0,3.0,0.0,2,1,1.27,7.0,3.0,Group Stage,True,Knockout Stage
+25/06/2026,56,GROUP STAGE,Germany,Ecuador,10.0,1.0,0.0,1,2,0.65,11.0,3.0,Group Stage,True,Knockout Stage
+26/06/2026,57,GROUP STAGE,Japan,Sweden,20.0,1.0,0.0,1,1,1.21,8.0,3.0,Group Stage,True,Knockout Stage
+26/06/2026,57,GROUP STAGE,Sweden,Japan,11.0,2.0,0.0,1,1,0.64,11.0,5.0,Group Stage,True,Knockout Stage
+26/06/2026,58,GROUP STAGE,Netherlands,Tunisia,10.0,0.0,0.0,3,1,1.85,20.0,7.0,Group Stage,True,Knockout Stage
+26/06/2026,58,GROUP STAGE,Tunisia,Netherlands,11.0,0.0,0.0,1,3,0.62,10.0,4.0,Group Stage,False,Eliminated in Group Stage
+26/06/2026,59,GROUP STAGE,Australia,Paraguay,6.0,1.0,0.0,0,0,0.55,12.0,5.0,Group Stage,True,Knockout Stage
+26/06/2026,59,GROUP STAGE,Paraguay,Australia,9.0,1.0,0.0,0,0,0.24,7.0,2.0,Group Stage,True,Knockout Stage
+26/06/2026,60,GROUP STAGE,Turkey,USA,13.0,0.0,0.0,3,2,3.01,9.0,3.0,Group Stage,False,Eliminated in Group Stage
+26/06/2026,60,GROUP STAGE,USA,Turkey,13.0,1.0,0.0,2,3,2.13,18.0,7.0,Group Stage,True,Knockout Stage
+26/06/2026,61,GROUP STAGE,France,Norway,11.0,1.0,0.0,4,1,1.5,18.0,9.0,Group Stage,True,Knockout Stage
+26/06/2026,61,GROUP STAGE,Norway,France,9.0,1.0,0.0,1,4,1.7,10.0,4.0,Group Stage,True,Knockout Stage
+26/06/2026,62,GROUP STAGE,Iraq,Senegal,11.0,2.0,1.0,0,5,1.04,6.0,1.0,Group Stage,False,Eliminated in Group Stage
+26/06/2026,62,GROUP STAGE,Senegal,Iraq,10.0,2.0,0.0,5,0,3.01,28.0,12.0,Group Stage,True,Knockout Stage
+27/06/2026,63,GROUP STAGE,Cape Verde,Saudi Arabia,10.0,1.0,0.0,0,0,1.39,15.0,2.0,Group Stage,True,Knockout Stage
+27/06/2026,63,GROUP STAGE,Saudi Arabia,Cape Verde,16.0,3.0,0.0,0,0,0.39,7.0,3.0,Group Stage,False,Eliminated in Group Stage
+27/06/2026,64,GROUP STAGE,Spain,Uruguay,14.0,1.0,0.0,1,0,0.86,6.0,1.0,Group Stage,True,Knockout Stage
+27/06/2026,64,GROUP STAGE,Uruguay,Spain,14.0,3.0,1.0,0,1,0.2,5.0,1.0,Group Stage,False,Eliminated in Group Stage
+27/06/2026,65,GROUP STAGE,Egypt,Iran,11.0,3.0,0.0,1,1,0.84,15.0,3.0,Group Stage,True,Knockout Stage
+27/06/2026,65,GROUP STAGE,Iran,Egypt,16.0,4.0,0.0,1,1,1.97,13.0,4.0,Group Stage,False,Eliminated in Group Stage
+27/06/2026,66,GROUP STAGE,Belgium,New Zealand,7.0,0.0,0.0,5,1,3.69,35.0,10.0,Group Stage,True,Knockout Stage
+27/06/2026,66,GROUP STAGE,New Zealand,Belgium,10.0,2.0,0.0,1,5,0.25,6.0,2.0,Group Stage,False,Eliminated in Group Stage
+27/06/2026,67,GROUP STAGE,Croatia,Ghana,9.0,1.0,0.0,2,1,0.42,8.0,4.0,Group Stage,True,Knockout Stage
+27/06/2026,67,GROUP STAGE,Ghana,Croatia,13.0,1.0,0.0,1,2,0.74,6.0,1.0,Group Stage,True,Knockout Stage
+27/06/2026,68,GROUP STAGE,England,Panama,13.0,1.0,0.0,2,0,1.49,17.0,6.0,Group Stage,True,Knockout Stage
+27/06/2026,68,GROUP STAGE,Panama,England,16.0,2.0,0.0,0,2,0.58,13.0,2.0,Group Stage,False,Eliminated in Group Stage
+28/06/2026,69,GROUP STAGE,Colombia,Portugal,12.0,1.0,0.0,0,0,1.7,24.0,6.0,Group Stage,True,Knockout Stage
+28/06/2026,69,GROUP STAGE,Portugal,Colombia,6.0,0.0,0.0,0,0,0.93,13.0,2.0,Group Stage,True,Knockout Stage
+28/06/2026,70,GROUP STAGE,D.R. Congo,Uzbekistan,6.0,3.0,0.0,3,1,2.18,19.0,4.0,Group Stage,True,Knockout Stage
+28/06/2026,70,GROUP STAGE,Uzbekistan,D.R. Congo,16.0,2.0,0.0,1,3,0.2,3.0,1.0,Group Stage,False,Eliminated in Group Stage
+28/06/2026,71,GROUP STAGE,Algeria,Austria,3.0,0.0,0.0,3,3,1.67,12.0,5.0,Group Stage,True,Knockout Stage
+28/06/2026,71,GROUP STAGE,Austria,Algeria,7.0,1.0,0.0,3,3,1.49,10.0,3.0,Group Stage,True,Knockout Stage
+28/06/2026,72,GROUP STAGE,Argentina,Jordan,7.0,0.0,0.0,3,1,2.13,12.0,4.0,Group Stage,True,Knockout Stage
+28/06/2026,72,GROUP STAGE,Jordan,Argentina,13.0,3.0,0.0,1,3,0.76,5.0,1.0,Group Stage,False,Eliminated in Group Stage
+28/06/2026,73,ROUND OF 32,Canada,South Africa,16.0,2.0,0.0,1,0,1.38,12.0,7.0,Knockout Stage,True,Knockout Stage
+28/06/2026,73,ROUND OF 32,South Africa,Canada,10.0,0.0,0.0,0,1,0.14,6.0,1.0,Knockout Stage,True,Knockout Stage
+29/06/2026,74,ROUND OF 32,Brazil,Japan,4.0,2.0,0.0,2,1,2.07,19.0,7.0,Knockout Stage,True,Knockout Stage
+29/06/2026,74,ROUND OF 32,Japan,Brazil,13.0,3.0,0.0,1,2,0.33,5.0,2.0,Knockout Stage,True,Knockout Stage
+29/06/2026,75,ROUND OF 32,Germany,Paraguay,18.0,2.0,0.0,1,1p,1.57,21.0,6.0,Knockout Stage,True,Knockout Stage
+29/06/2026,75,ROUND OF 32,Paraguay,Germany,12.0,2.0,0.0,1p,1,0.35,7.0,3.0,Knockout Stage,True,Knockout Stage
+29/06/2026,76,ROUND OF 32,Morocco,Netherlands,15.0,1.0,0.0,1p,1,1.38,11.0,5.0,Knockout Stage,True,Knockout Stage
+29/06/2026,76,ROUND OF 32,Netherlands,Morocco,18.0,0.0,0.0,1,1p,0.24,6.0,2.0,Knockout Stage,True,Knockout Stage
+30/06/2026,77,ROUND OF 32,Ivory Coast,Norway,6.0,0.0,0.0,1,2,1.49,14.0,5.0,Knockout Stage,True,Knockout Stage
+30/06/2026,77,ROUND OF 32,Norway,Ivory Coast,7.0,1.0,0.0,2,1,1.9,9.0,4.0,Knockout Stage,True,Knockout Stage
+30/06/2026,78,ROUND OF 32,France,Sweden,14.0,0.0,0.0,3,0,3.24,25.0,12.0,Knockout Stage,True,Knockout Stage
+30/06/2026,78,ROUND OF 32,Sweden,France,10.0,0.0,0.0,0,3,0.7,8.0,3.0,Knockout Stage,True,Knockout Stage
+30/06/2026,79,ROUND OF 32,Ecuador,Mexico,14.0,3.0,1.0,0,2,0.75,7.0,1.0,Knockout Stage,True,Knockout Stage
+30/06/2026,79,ROUND OF 32,Mexico,Ecuador,10.0,0.0,0.0,2,0,1.05,15.0,3.0,Knockout Stage,True,Knockout Stage
+01/07/2026,80,ROUND OF 32,D.R. Congo,England,12.0,1.0,0.0,1,2,0.77,7.0,2.0,Knockout Stage,True,Knockout Stage
+01/07/2026,80,ROUND OF 32,England,D.R. Congo,10.0,1.0,0.0,2,1,2.16,16.0,7.0,Knockout Stage,True,Knockout Stage
+01/07/2026,81,ROUND OF 32,Belgium,Senegal,22.0,1.0,0.0,3,2,1.74,19.0,5.0,Knockout Stage,True,Knockout Stage
+01/07/2026,81,ROUND OF 32,Senegal,Belgium,12.0,1.0,0.0,2,3,3.58,19.0,5.0,Knockout Stage,True,Knockout Stage
+01/07/2026,82,ROUND OF 32,Bosnia & Herzegovina,USA,13.0,1.0,0.0,0,2,0.25,10.0,3.0,Knockout Stage,True,Knockout Stage
+01/07/2026,82,ROUND OF 32,USA,Bosnia & Herzegovina,7.0,0.0,1.0,2,0,0.88,8.0,2.0,Knockout Stage,True,Knockout Stage
+02/07/2026,83,ROUND OF 32,Austria,Spain,15.0,1.0,0.0,0,3,0.32,5.0,0.0,Knockout Stage,True,Knockout Stage
+02/07/2026,83,ROUND OF 32,Spain,Austria,8.0,0.0,0.0,3,0,2.8,23.0,10.0,Knockout Stage,True,Knockout Stage
+02/07/2026,84,ROUND OF 32,Croatia,Portugal,12.0,2.0,0.0,1,2,1.34,13.0,6.0,Knockout Stage,True,Knockout Stage
+02/07/2026,84,ROUND OF 32,Portugal,Croatia,6.0,1.0,0.0,2,1,2.2,15.0,3.0,Knockout Stage,True,Knockout Stage
+02/07/2026,85,ROUND OF 32,Algeria,Switzerland,12.0,2.0,0.0,0,2,0.73,8.0,2.0,Knockout Stage,True,Knockout Stage
+02/07/2026,85,ROUND OF 32,Switzerland,Algeria,10.0,0.0,0.0,2,0,2.52,11.0,5.0,Knockout Stage,True,Knockout Stage
+03/07/2026,86,ROUND OF 32,Australia,Egypt,12.0,0.0,0.0,1,1p,0.84,16.0,1.0,Knockout Stage,True,Knockout Stage
+03/07/2026,86,ROUND OF 32,Egypt,Australia,14.0,2.0,0.0,1p,1,1.32,14.0,3.0,Knockout Stage,True,Knockout Stage
+03/07/2026,87,ROUND OF 32,Argentina,Cape Verde,13.0,1.0,0.0,3,2,2.26,22.0,10.0,Knockout Stage,True,Knockout Stage
+03/07/2026,87,ROUND OF 32,Cape Verde,Argentina,12.0,1.0,0.0,2,3,0.47,16.0,5.0,Knockout Stage,True,Knockout Stage
+03/07/2026,88,ROUND OF 32,Colombia,Ghana,14.0,2.0,0.0,1,0,2.04,20.0,8.0,Knockout Stage,True,Knockout Stage
+03/07/2026,88,ROUND OF 32,Ghana,Colombia,10.0,3.0,0.0,0,1,0.27,8.0,0.0,Knockout Stage,True,Knockout Stage
+04/07/2026,89,ROUND OF 16,Canada,Morocco,24.0,4.0,0.0,0,3,0.84,10.0,3.0,Knockout Stage,True,Knockout Stage
+04/07/2026,89,ROUND OF 16,Morocco,Canada,14.0,4.0,0.0,3,0,0.82,5.0,4.0,Knockout Stage,True,Knockout Stage
+04/07/2026,90,ROUND OF 16,France,Paraguay,11.0,3.0,0.0,1,0,1.45,15.0,5.0,Knockout Stage,True,Knockout Stage
+04/07/2026,90,ROUND OF 16,Paraguay,France,13.0,0.0,0.0,0,1,0.13,5.0,0.0,Knockout Stage,True,Knockout Stage
+05/07/2026,91,ROUND OF 16,Brazil,Norway,7.0,1.0,0.0,1,2,2.61,14.0,4.0,Knockout Stage,True,Knockout Stage
+05/07/2026,91,ROUND OF 16,Norway,Brazil,6.0,0.0,0.0,2,1,1.05,9.0,5.0,Knockout Stage,True,Knockout Stage
+05/07/2026,92,ROUND OF 16,England,Mexico,7.0,3.0,1.0,3,2,1.61,6.0,5.0,Knockout Stage,True,Knockout Stage
+05/07/2026,92,ROUND OF 16,Mexico,England,14.0,2.0,0.0,2,3,1.88,20.0,5.0,Knockout Stage,True,Knockout Stage
+06/07/2026,93,ROUND OF 16,Portugal,Spain,9.0,2.0,0.0,0,1,0.63,10.0,2.0,Knockout Stage,True,Knockout Stage
+06/07/2026,93,ROUND OF 16,Spain,Portugal,13.0,1.0,0.0,1,0,1.69,15.0,6.0,Knockout Stage,True,Knockout Stage
+06/07/2026,94,ROUND OF 16,Belgium,USA,9.0,0.0,0.0,4,1,2.01,15.0,7.0,Knockout Stage,True,Knockout Stage
+06/07/2026,94,ROUND OF 16,USA,Belgium,11.0,2.0,0.0,1,4,0.63,7.0,2.0,Knockout Stage,True,Knockout Stage
+07/07/2026,95,ROUND OF 16,Argentina,Egypt,13.0,0.0,0.0,3,2,2.84,19.0,7.0,Knockout Stage,True,Knockout Stage
+07/07/2026,95,ROUND OF 16,Egypt,Argentina,11.0,3.0,0.0,2,3,0.89,5.0,2.0,Knockout Stage,True,Knockout Stage
+07/07/2026,96,ROUND OF 16,Colombia,Switzerland,21.0,2.0,0.0,0,p0,1.09,15.0,3.0,Knockout Stage,True,Knockout Stage
+07/07/2026,96,ROUND OF 16,Switzerland,Colombia,22.0,3.0,0.0,p0,0,0.39,7.0,2.0,Knockout Stage,True,Knockout Stage
+09/07/2026,97,QUARTER FINALS,France,Morocco,10.0,0.0,0.0,2,0,3.69,22.0,8.0,Knockout Stage,True,Knockout Stage
+09/07/2026,97,QUARTER FINALS,Morocco,France,13.0,1.0,0.0,0,2,0.14,5.0,1.0,Knockout Stage,True,Knockout Stage
+10/07/2026,98,QUARTER FINALS,Belgium,Spain,18.0,2.0,0.0,1,2,0.37,5.0,2.0,Knockout Stage,True,Knockout Stage
+10/07/2026,98,QUARTER FINALS,Spain,Belgium,13.0,2.0,0.0,2,1,2.1,17.0,8.0,Knockout Stage,True,Knockout Stage
+11/07/2026,99,QUARTER FINALS,England,Norway,8.0,0.0,0.0,2,1,1.04,14.0,8.0,Knockout Stage,True,Knockout Stage
+11/07/2026,99,QUARTER FINALS,Norway,England,10.0,1.0,0.0,1,2,0.68,13.0,4.0,Knockout Stage,True,Knockout Stage
+11/07/2026,100,QUARTER FINALS,Argentina,Switzerland,14.0,3.0,0.0,3,1,1.94,22.0,7.0,Knockout Stage,True,Knockout Stage
+11/07/2026,100,QUARTER FINALS,Switzerland,Argentina,18.0,2.0,1.0,1,3,0.47,11.0,5.0,Knockout Stage,True,Knockout Stage
+14/07/2026,101,SEMI FINALS,France,Spain,11.0,2.0,0.0,0,2,0.3,10.0,3.0,Knockout Stage,True,Knockout Stage
+14/07/2026,101,SEMI FINALS,Spain,France,12.0,1.0,0.0,2,0,1.63,10.0,2.0,Knockout Stage,True,Knockout Stage
+15/07/2026,102,SEMI FINALS,Argentina,England,15.0,3.0,0.0,2,1,1.84,15.0,5.0,Knockout Stage,True,Knockout Stage
+15/07/2026,102,SEMI FINALS,England,Argentina,11.0,1.0,0.0,1,2,0.53,5.0,2.0,Knockout Stage,True,Knockout Stage
+19/07/2026,103,FINAL,Argentina,Spain,25.0,5.0,1.0,0,1,0.22,2.0,0.0,Knockout Stage,True,Knockout Stage
+19/07/2026,103,FINAL,Spain,Argentina,21.0,0.0,0.0,1,0,2.29,20.0,12.0,Knockout Stage,True,Knockout Stage
