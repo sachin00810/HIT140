@@ -1,0 +1,4 @@
+,cv_R2,cv_RMSE,cv_MAE
+zero,0.1755,1.8284,1.4078
+tournament_mean,0.1755,1.8284,1.4078
+shrunk,0.1719,1.8323,1.4144

@@ -1,0 +1,9 @@
+vars,k,cv_R2
+"gf_diff, rest_diff, xg_diff, ppg_diff, is_knockout",5,0.2199
+"gf_diff, xg_diff, ppg_diff",3,0.2103
+"gf_diff, xg_diff, ppg_diff, is_knockout",4,0.2095
+"gf_diff, rest_diff, xg_diff, ppg_diff",4,0.2017
+"gf_diff, xg_diff, ppg_diff, is_knockout, host_adv",5,0.1911
+"gf_diff, xg_diff, ppg_diff, fouls_diff",4,0.1889
+"gf_diff, xg_diff, ppg_diff, host_adv",4,0.1879
+"gf_diff, xg_diff, ppg_diff, fouls_diff, is_knockout",5,0.1844
