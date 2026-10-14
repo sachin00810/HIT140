@@ -1,0 +1,11 @@
+model,R2,MAE,RMSE
+Baseline (mean),-0.202,1.629,2.032
+OLS (8 vars),-0.198,1.507,1.966
+Ridge (alpha by CV),0.247,1.233,1.582
+Lasso (alpha by CV),0.199,1.278,1.639
+Huber (robust),-0.205,1.505,1.97
+OLS + best-k selection,0.101,1.356,1.743
+Random forest,0.223,1.301,1.547
+Gradient boosting,0.072,1.395,1.713
+SVR (RBF),0.028,1.427,1.808
+k-NN (k=10),0.159,1.277,1.643

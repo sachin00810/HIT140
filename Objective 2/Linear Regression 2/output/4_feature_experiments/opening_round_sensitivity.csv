@@ -1,0 +1,7 @@
+rows,model,R2,RMSE
+all 208 rows (opening rows filled in-fold),Baseline (mean),-0.012,1.398
+all 208 rows (opening rows filled in-fold),OLS (8 vars),0.159,1.275
+all 208 rows (opening rows filled in-fold),Ridge (alpha by CV),0.177,1.261
+only rows with tournament history (160),Baseline (mean),-0.013,1.391
+only rows with tournament history (160),OLS (8 vars),0.174,1.256
+only rows with tournament history (160),Ridge (alpha by CV),0.198,1.237

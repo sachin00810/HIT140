@@ -1,0 +1,4 @@
+,n,cv_R2,cv_RMSE
+all 104 matches (OLS),104.0,0.3552,1.6169
+80 matches with history (OLS),80.0,0.3966,1.5766
+80 matches with history (mean baseline),80.0,-0.024,2.0549

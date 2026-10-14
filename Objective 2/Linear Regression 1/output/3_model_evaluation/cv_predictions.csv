@@ -1,0 +1,105 @@
+match_no,team1,team2,actual,cv_predicted
+1,Mexico,South Africa,2,1.735
+2,South Korea,Czech Republic,1,0.796
+3,Canada,Bosnia & Herzegovina,0,1.565
+4,USA,Paraguay,3,1.165
+5,Qatar,Switzerland,0,-0.738
+6,Brazil,Morocco,0,0.388
+7,Haiti,Scotland,-1,-0.732
+8,Australia,Turkey,2,0.18
+9,Germany,Curacao,6,2.269
+10,Netherlands,Japan,0,0.826
+11,Ivory Coast,Ecuador,1,0.039
+12,Sweden,Tunisia,4,0.464
+13,Spain,Cape Verde,0,3.244
+14,Belgium,Egypt,0,1.304
+15,Saudi Arabia,Uruguay,0,-0.906
+16,Iran,New Zealand,0,2.174
+17,France,Senegal,2,1.245
+18,Iraq,Norway,-3,-0.162
+19,Argentina,Algeria,3,1.846
+20,Austria,Jordan,2,1.423
+21,Portugal,D.R. Congo,0,1.858
+22,England,Croatia,2,0.889
+23,Ghana,Panama,1,-0.716
+24,Uzbekistan,Colombia,-2,-0.838
+25,Czech Republic,South Africa,0,-0.632
+26,Switzerland,Bosnia & Herzegovina,3,1.397
+27,Canada,Qatar,6,1.741
+28,Mexico,South Korea,1,1.88
+29,USA,Australia,2,1.488
+30,Scotland,Morocco,-1,-1.42
+31,Brazil,Haiti,3,3.006
+32,Turkey,Paraguay,-1,1.74
+33,Netherlands,Sweden,4,1.668
+34,Germany,Ivory Coast,1,0.738
+35,Ecuador,Curacao,0,3.58
+36,Tunisia,Japan,-4,-0.965
+37,Spain,Saudi Arabia,4,3.249
+38,Belgium,Iran,0,1.131
+39,Uruguay,Cape Verde,0,2.336
+40,New Zealand,Egypt,-2,-1.085
+41,Argentina,Austria,2,1.904
+42,France,Iraq,3,3.933
+43,Norway,Senegal,1,-0.873
+44,Jordan,Algeria,-1,-0.822
+45,Portugal,Uzbekistan,5,2.782
+46,England,Ghana,0,2.79
+47,Panama,Croatia,-1,0.785
+48,Colombia,D.R. Congo,1,0.562
+49,Bosnia & Herzegovina,Qatar,2,0.652
+50,Switzerland,Canada,1,0.89
+51,Morocco,Haiti,2,3.747
+52,Scotland,Brazil,-3,-0.632
+53,Czech Republic,Mexico,-3,-1.057
+54,South Africa,South Korea,1,-0.612
+55,Curacao,Ivory Coast,-2,-2.163
+56,Ecuador,Germany,1,-0.449
+57,Japan,Sweden,0,1.522
+58,Tunisia,Netherlands,-2,-1.346
+59,Paraguay,Australia,0,-0.68
+60,Turkey,USA,1,-0.966
+61,Norway,France,-3,-2.197
+62,Senegal,Iraq,5,1.516
+63,Cape Verde,Saudi Arabia,0,0.217
+64,Uruguay,Spain,-1,-0.959
+65,Egypt,Iran,0,-0.33
+66,New Zealand,Belgium,-4,-2.532
+67,Croatia,Ghana,1,1.654
+68,Panama,England,-2,-1.581
+69,Colombia,Portugal,0,-0.308
+70,D.R. Congo,Uzbekistan,2,1.208
+71,Algeria,Austria,0,0.609
+72,Jordan,Argentina,-2,-2.633
+73,South Africa,Canada,-1,-1.185
+74,Brazil,Japan,1,-0.044
+75,Germany,Paraguay,0,0.918
+76,Netherlands,Morocco,0,-0.655
+77,Ivory Coast,Norway,-1,0.448
+78,France,Sweden,3,1.467
+79,Mexico,Ecuador,2,0.388
+80,England,D.R. Congo,1,1.466
+81,Belgium,Senegal,1,0.118
+82,USA,Bosnia & Herzegovina,2,0.389
+83,Spain,Austria,3,1.878
+84,Portugal,Croatia,1,-0.083
+85,Switzerland,Algeria,2,0.152
+86,Australia,Egypt,0,0.602
+87,Argentina,Cape Verde,1,2.235
+88,Colombia,Ghana,1,1.241
+89,Canada,Morocco,-3,-0.703
+90,Paraguay,France,-1,-2.081
+91,Brazil,Norway,-1,1.332
+92,Mexico,England,-1,-0.299
+93,Portugal,Spain,-1,-1.222
+94,USA,Belgium,-3,0.333
+95,Argentina,Egypt,1,1.592
+96,Switzerland,Colombia,0,-0.731
+97,France,Morocco,2,0.01
+98,Spain,Belgium,1,1.035
+99,Norway,England,-1,-2.25
+100,Argentina,Switzerland,2,0.898
+101,France,Spain,-2,-0.343
+102,England,Argentina,-1,-0.541
+103,France,England,-2,0.136
+104,Spain,Argentina,1,0.028

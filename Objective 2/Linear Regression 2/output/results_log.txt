@@ -1,0 +1,103 @@
+Dataset: 208 team-matches (104 matches), 8 explanatory variables, target = goals
+Rows with no tournament history (team's opening match): 48
+
+== Descriptive statistics ==
+                        count      mean      std      min       25%       50%       75%      max   skew
+prior_goals_avg         160.0     1.728    1.106     0.00     1.000     1.708     2.333     7.00  0.947
+prior_sot_avg           160.0     4.657    2.233     0.00     3.000     4.333     6.425    12.00  0.276
+prior_shots_avg         160.0    13.306    5.336     3.00     9.500    12.500    16.000    31.00  0.782
+prior_corners_avg       160.0     4.648    2.512     0.50     3.000     4.292     5.875    14.00  1.139
+opp_prior_conceded_avg  160.0     1.270    1.097     0.00     0.593     1.000     1.700     7.00  1.851
+team_fifa_pts           208.0  1617.207  162.682  1275.58  1505.350  1602.125  1745.072  1877.27 -0.126
+opp_fifa_pts            208.0  1617.207  162.682  1275.58  1505.350  1602.125  1745.072  1877.27 -0.126
+rest_days               160.0     5.212    1.135     3.00     4.000     5.000     6.000     8.00 -0.035
+goals                   208.0     1.481    1.393     0.00     0.000     1.000     2.000     7.00  1.149
+
+Target: mean 1.48, variance 1.94 (Poisson-like count); 0 goals in 26% of team-matches, 3+ goals in 21%
+
+== Variance inflation factors (>5 = concern) ==
+prior_goals_avg           2.20
+prior_sot_avg             5.03
+prior_shots_avg           3.84
+prior_corners_avg         2.32
+opp_prior_conceded_avg    1.30
+team_fifa_pts             1.49
+opp_fifa_pts              1.30
+rest_days                 1.16
+
+== OLS on all 208 rows (standard errors clustered by match) ==  R2=0.269  adj R2=0.240  AIC=680.0
+                         coef  std_err_clustered      t  p_value  ci_low  ci_high  std_beta
+const                   1.064              1.838  0.579    0.563  -2.538    4.667       NaN
+prior_goals_avg        -0.022              0.117 -0.190    0.849  -0.252    0.207    -0.015
+prior_sot_avg          -0.034              0.097 -0.354    0.724  -0.225    0.156    -0.048
+prior_shots_avg        -0.008              0.041 -0.200    0.842  -0.088    0.072    -0.027
+prior_corners_avg       0.073              0.071  1.025    0.306  -0.066    0.211     0.115
+opp_prior_conceded_avg  0.159              0.135  1.180    0.238  -0.105    0.424     0.110
+team_fifa_pts           0.003              0.001  4.943    0.000   0.002    0.004     0.357
+opp_fifa_pts           -0.003              0.001 -3.562    0.000  -0.004   -0.001    -0.294
+rest_days              -0.130              0.090 -1.447    0.148  -0.306    0.046    -0.093
+
+== Diagnostics ==  Breusch-Pagan p=0.034 | Shapiro-Wilk p=0.0000 (goals are counts, so residuals are not normal) | max Cook's D=0.249
+
+== Repeated 5-fold CV by match (20 repeats) ==
+                        R2    MAE   RMSE  R2_sd  MAE_sd  RMSE_sd
+model                                                           
+Baseline (mean)     -0.012  1.116  1.398  0.010   0.005    0.007
+OLS (8 vars)         0.159  0.954  1.275  0.023   0.015    0.018
+Ridge (alpha by CV)  0.177  0.945  1.261  0.018   0.012    0.014
+Lasso (alpha by CV)  0.178  0.945  1.260  0.024   0.016    0.018
+Huber (robust)       0.154  0.942  1.278  0.025   0.017    0.019
+Poisson regression   0.077  0.955  1.335  0.055   0.015    0.039
+Random forest        0.135  0.970  1.293  0.025   0.014    0.019
+Gradient boosting    0.133  0.976  1.294  0.029   0.014    0.021
+SVR (RBF)            0.178  0.949  1.260  0.018   0.012    0.013
+k-NN (k=10)          0.112  0.983  1.310  0.021   0.013    0.015
+
+== Chronological hold-out: train first 83 matches (166 rows), test the last 21 ==
+                        R2    MAE   RMSE
+model                                   
+Baseline (mean)     -0.002  1.045  1.315
+OLS (8 vars)         0.088  0.939  1.254
+Ridge (alpha by CV)  0.106  0.936  1.242
+Lasso (alpha by CV)  0.091  0.940  1.252
+Huber (robust)       0.098  0.918  1.248
+Poisson regression   0.101  0.919  1.246
+Random forest        0.100  0.943  1.246
+Gradient boosting    0.070  0.977  1.267
+SVR (RBF)            0.102  0.906  1.245
+k-NN (k=10)          0.122  0.898  1.231
+
+== Rolling-origin CV (5 expanding windows, 8 test matches each) ==
+                        R2    MAE   RMSE
+model                                   
+Baseline (mean)     -0.004  1.021  1.201
+OLS (8 vars)         0.184  0.894  1.066
+Ridge (alpha by CV)  0.239  0.868  1.031
+Lasso (alpha by CV)  0.253  0.854  1.023
+Huber (robust)       0.245  0.844  1.018
+Poisson regression   0.233  0.850  1.034
+Random forest        0.144  0.880  1.073
+Gradient boosting    0.121  0.897  1.072
+SVR (RBF)            0.153  0.888  1.095
+k-NN (k=10)          0.129  0.904  1.120
+
+== Feature ablation (OLS CV R2 with all 8 = 0.159) ==
+                        alone_cv_R2  drop_one_cv_R2  delta_R2_when_dropped  delta_RMSE_when_dropped
+feature                                                                                            
+prior_goals_avg              -0.009           0.166                  0.007                   -0.005
+prior_sot_avg                 0.004           0.168                  0.009                   -0.007
+prior_shots_avg               0.002           0.176                  0.017                   -0.013
+prior_corners_avg             0.006           0.171                  0.013                   -0.010
+opp_prior_conceded_avg        0.001           0.169                  0.010                   -0.008
+team_fifa_pts                 0.125           0.069                 -0.090                    0.066
+opp_fifa_pts                  0.084           0.098                 -0.061                    0.045
+rest_days                    -0.023           0.159                  0.001                   -0.001
+
+== Sensitivity: do the opening-match rows matter? ==
+                                      rows               model     R2  RMSE
+all 208 rows (opening rows filled in-fold)     Baseline (mean) -0.012 1.398
+all 208 rows (opening rows filled in-fold)        OLS (8 vars)  0.159 1.275
+all 208 rows (opening rows filled in-fold) Ridge (alpha by CV)  0.177 1.261
+   only rows with tournament history (160)     Baseline (mean) -0.013 1.391
+   only rows with tournament history (160)        OLS (8 vars)  0.174 1.256
+   only rows with tournament history (160) Ridge (alpha by CV)  0.198 1.237

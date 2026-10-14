@@ -1,0 +1,209 @@
+match_no,team,actual,cv_pred
+1,Mexico,2,2.174
+1,South Africa,0,0.729
+2,South Korea,2,1.68
+2,Czech Republic,1,1.203
+3,Canada,1,1.921
+3,Bosnia & Herzegovina,1,0.956
+4,USA,4,1.89
+4,Paraguay,1,0.995
+5,Qatar,1,0.883
+5,Switzerland,1,2.016
+6,Brazil,1,1.619
+6,Morocco,1,1.558
+7,Haiti,0,0.902
+7,Scotland,1,2.032
+8,Australia,2,1.404
+8,Turkey,0,1.55
+9,Germany,7,2.512
+9,Curacao,1,0.247
+10,Netherlands,2,1.776
+10,Japan,2,1.261
+11,Ivory Coast,1,1.3
+11,Ecuador,0,1.619
+12,Sweden,5,1.486
+12,Tunisia,1,1.298
+13,Spain,0,2.988
+13,Cape Verde,0,0.022
+14,Belgium,1,2.029
+14,Egypt,1,1.009
+15,Saudi Arabia,1,0.754
+15,Uruguay,1,2.138
+16,Iran,2,2.429
+16,New Zealand,2,0.4
+17,France,3,1.999
+17,Senegal,1,0.994
+18,Iraq,1,1.072
+18,Norway,4,1.687
+19,Argentina,3,2.376
+19,Algeria,0,0.726
+20,Austria,3,1.968
+20,Jordan,1,0.836
+21,Portugal,1,2.343
+21,D.R. Congo,1,0.658
+22,England,4,1.867
+22,Croatia,2,1.229
+23,Ghana,1,0.877
+23,Panama,0,1.976
+24,Uzbekistan,1,0.784
+24,Colombia,3,2.13
+25,Czech Republic,1,1.743
+25,South Africa,1,1.024
+26,Switzerland,4,2.187
+26,Bosnia & Herzegovina,1,0.614
+27,Canada,6,1.667
+27,Qatar,0,1.043
+28,Mexico,1,1.285
+28,South Korea,0,0.722
+29,USA,2,1.123
+29,Australia,0,1.279
+30,Scotland,0,0.784
+30,Morocco,1,1.749
+31,Brazil,3,2.51
+31,Haiti,0,0.096
+32,Turkey,0,2.625
+32,Paraguay,1,0.983
+33,Netherlands,5,1.886
+33,Sweden,1,0.724
+34,Germany,2,1.45
+34,Ivory Coast,1,0.787
+35,Ecuador,0,4.131
+35,Curacao,0,0.146
+36,Tunisia,0,0.892
+36,Japan,4,2.158
+37,Spain,4,2.787
+37,Saudi Arabia,0,0.004
+38,Belgium,0,1.877
+38,Iran,0,1.213
+39,Uruguay,2,2.522
+39,Cape Verde,2,0.336
+40,New Zealand,1,-0.113
+40,Egypt,3,2.35
+41,Argentina,2,2.069
+41,Austria,0,0.555
+42,France,3,3.036
+42,Iraq,0,0.175
+43,Norway,3,0.994
+43,Senegal,2,1.646
+44,Jordan,1,1.095
+44,Algeria,2,2.221
+45,Portugal,5,2.552
+45,Uzbekistan,0,0.647
+46,England,0,2.655
+46,Ghana,0,0.121
+47,Panama,0,1.255
+47,Croatia,1,1.579
+48,Colombia,1,1.947
+48,D.R. Congo,0,0.67
+49,Bosnia & Herzegovina,3,1.396
+49,Qatar,1,1.602
+50,Switzerland,2,1.685
+50,Canada,1,1.676
+51,Morocco,4,2.883
+51,Haiti,2,0.146
+52,Scotland,0,0.735
+52,Brazil,3,2.338
+53,Czech Republic,0,0.694
+53,Mexico,3,1.662
+54,South Africa,1,0.716
+54,South Korea,0,1.775
+55,Curacao,0,0.772
+55,Ivory Coast,2,2.503
+56,Ecuador,2,1.108
+56,Germany,1,1.772
+57,Japan,1,2.303
+57,Sweden,1,0.744
+58,Tunisia,1,0.835
+58,Netherlands,3,2.416
+59,Paraguay,0,1.03
+59,Australia,0,1.698
+60,Turkey,3,0.994
+60,USA,2,1.466
+61,Norway,1,0.772
+61,France,4,2.484
+62,Senegal,5,2.691
+62,Iraq,0,1.245
+63,Cape Verde,0,1.322
+63,Saudi Arabia,0,1.454
+64,Uruguay,0,1.373
+64,Spain,1,2.26
+65,Egypt,1,1.259
+65,Iran,1,1.412
+66,New Zealand,1,-0.259
+66,Belgium,5,2.368
+67,Croatia,2,2.438
+67,Ghana,1,0.684
+68,Panama,0,1.189
+68,England,2,2.614
+69,Colombia,0,1.274
+69,Portugal,0,1.612
+70,D.R. Congo,3,2.137
+70,Uzbekistan,1,1.334
+71,Algeria,3,1.532
+71,Austria,3,1.535
+72,Jordan,1,-0.187
+72,Argentina,3,2.673
+73,South Africa,0,1.361
+73,Canada,1,2.516
+74,Brazil,2,1.783
+74,Japan,1,1.396
+75,Germany,1,2.208
+75,Paraguay,1,0.953
+76,Netherlands,1,1.737
+76,Morocco,1,1.616
+77,Ivory Coast,1,1.652
+77,Norway,2,1.559
+78,France,3,2.758
+78,Sweden,0,0.577
+79,Mexico,2,1.422
+79,Ecuador,0,1.142
+80,England,2,2.786
+80,D.R. Congo,1,0.69
+81,Belgium,3,1.608
+81,Senegal,2,1.365
+82,USA,2,2.545
+82,Bosnia & Herzegovina,0,0.485
+83,Spain,3,2.618
+83,Austria,0,0.755
+84,Portugal,2,1.845
+84,Croatia,1,1.24
+85,Switzerland,2,1.567
+85,Algeria,0,1.356
+86,Australia,1,1.281
+86,Egypt,1,1.296
+87,Argentina,3,2.671
+87,Cape Verde,2,-0.234
+88,Colombia,1,2.307
+88,Ghana,0,0.194
+89,Canada,0,1.122
+89,Morocco,3,2.091
+90,Paraguay,0,0.37
+90,France,1,2.647
+91,Brazil,1,2.074
+91,Norway,2,0.739
+92,Mexico,2,0.795
+92,England,3,1.95
+93,Portugal,0,1.381
+93,Spain,1,2.12
+94,USA,1,1.435
+94,Belgium,4,1.353
+95,Argentina,3,2.391
+95,Egypt,2,0.859
+96,Switzerland,0,1.304
+96,Colombia,0,1.672
+97,France,2,1.916
+97,Morocco,0,1.173
+98,Spain,2,2.169
+98,Belgium,1,1.044
+99,Norway,1,0.589
+99,England,2,2.282
+100,Argentina,3,2.099
+100,Switzerland,1,1.018
+101,France,0,1.49
+101,Spain,2,1.746
+102,England,1,1.568
+102,Argentina,2,1.78
+103,France,4,1.639
+103,England,6,1.32
+104,Spain,1,1.752
+104,Argentina,0,1.668

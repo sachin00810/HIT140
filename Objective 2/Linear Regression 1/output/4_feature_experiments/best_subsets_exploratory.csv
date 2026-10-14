@@ -1,0 +1,9 @@
+vars,k,cv_R2
+"xga_diff, fifa_pts_diff, is_knockout",3,0.4028
+"xga_diff, fifa_pts_diff, fouls_diff, is_knockout",4,0.4002
+"xga_diff, fifa_pts_diff, rest_diff, is_knockout",4,0.4002
+"xga_diff, fifa_pts_diff, fouls_diff, rest_diff, is_knockout",5,0.3998
+"xga_diff, fifa_pts_diff",2,0.3973
+"xg_diff, xga_diff, fifa_pts_diff, is_knockout",4,0.396
+"xg_diff, xga_diff, fifa_pts_diff, rest_diff, is_knockout",5,0.3946
+"xga_diff, fifa_pts_diff, fouls_diff",3,0.3944
