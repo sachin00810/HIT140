@@ -31,7 +31,7 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_dataset as bd
 
-warnings.filterwarnings("ignore")
+.filterwarnings("ignore")
 SEED, ROOT = 140, Path(__file__).resolve().parents[1]
 OUT = ROOT / "output"; OUT.mkdir(exist_ok=True)
 EDA   = OUT / "1_exploratory_data_analysis"      # descriptives, correlations, multicollinearity
