@@ -1,0 +1,100 @@
+Dataset: 104 matches, 8 explanatory variables, target = goal_diff
+
+== Descriptive statistics ==
+             count   mean    std     min    25%  50%    75%   max   skew
+gf_diff      104.0  0.066  1.334  -4.500 -0.500  0.0  0.808  6.00  0.319
+ga_diff      104.0 -0.176  1.271  -6.000 -0.688  0.0  0.208  3.00 -0.767
+rest_diff    104.0  0.135  0.576  -1.000  0.000  0.0  0.000  3.00  1.868
+xg_diff      104.0  0.094  0.845  -2.135 -0.319  0.0  0.480  3.72  0.614
+ppg_diff     104.0  0.078  1.009  -3.000  0.000  0.0  0.500  3.00 -0.332
+fouls_diff   104.0 -0.321  2.930 -13.000 -1.259  0.0  1.000  6.50 -0.774
+is_knockout  104.0  0.308  0.464   0.000  0.000  0.0  1.000  1.00  0.846
+host_adv     104.0  0.067  0.376  -1.000  0.000  0.0  0.000  1.00  0.754
+goal_diff    104.0  0.481  2.024  -4.000 -1.000  0.0  2.000  6.00  0.258
+
+Target: mean 0.48, sd 2.02; home side wins 48%, draws 23%, loses 29%
+
+== Variance inflation factors (multicollinearity; >5 = concern) ==
+gf_diff        7.05
+ga_diff        2.29
+rest_diff      1.31
+xg_diff        5.43
+ppg_diff       2.97
+fouls_diff     1.10
+is_knockout    1.23
+host_adv       1.08
+
+== OLS on all 104 matches ==  R2=0.320  adj R2=0.263  F-test p=0.000  AIC=418.7
+              coef  std_err      t  p_value  ci_low  ci_high  std_beta
+const        0.495    0.208  2.377    0.019   0.082    0.909       NaN
+gf_diff     -1.320    0.341 -3.872    0.000  -1.996   -0.643    -0.870
+ga_diff      0.115    0.204  0.562    0.575  -0.290    0.519     0.072
+rest_diff    0.522    0.340  1.534    0.128  -0.154    1.198     0.148
+xg_diff      2.223    0.472  4.711    0.000   1.286    3.160     0.928
+ppg_diff     0.702    0.293  2.399    0.018   0.121    1.283     0.350
+fouls_diff  -0.041    0.061 -0.669    0.505  -0.163    0.081    -0.059
+is_knockout -0.921    0.409 -2.253    0.027  -1.734   -0.109    -0.211
+host_adv     0.423    0.474  0.891    0.375  -0.518    1.364     0.078
+
+== Diagnostics ==  Breusch-Pagan p=0.758 | Shapiro-Wilk p=0.182 | Durbin-Watson=2.20 | max Cook's D=0.146 (match 34)
+
+== Repeated 5-fold CV (20 repeats, out-of-fold predictions) ==
+                           R2    MAE   RMSE  R2_sd  MAE_sd  RMSE_sd
+model                                                              
+Baseline (mean)        -0.021  1.591  2.036  0.012   0.010    0.012
+OLS (8 vars)            0.175  1.408  1.828  0.047   0.043    0.051
+Ridge (alpha by CV)     0.166  1.414  1.839  0.052   0.046    0.056
+Lasso (alpha by CV)     0.098  1.471  1.912  0.056   0.049    0.060
+Huber (robust)          0.175  1.403  1.829  0.038   0.034    0.042
+OLS + best-k selection  0.089  1.473  1.921  0.058   0.054    0.061
+
+== Chronological hold-out: train first 83 matches, test last 21 ==
+                           R2    MAE   RMSE
+model                                      
+Baseline (mean)        -0.302  1.426  1.747
+OLS (8 vars)           -0.916  1.652  2.119
+Ridge (alpha by CV)    -0.906  1.648  2.114
+Lasso (alpha by CV)    -0.932  1.674  2.128
+Huber (robust)         -0.707  1.556  2.001
+OLS + best-k selection -0.916  1.652  2.119
+
+== Rolling-origin CV (5 expanding windows, 15 test matches each) ==
+                           R2    MAE   RMSE
+model                                      
+Baseline (mean)        -0.239  1.615  2.018
+OLS (8 vars)           -0.813  1.819  2.313
+Ridge (alpha by CV)    -0.186  1.485  1.914
+Lasso (alpha by CV)    -0.831  1.837  2.360
+Huber (robust)         -1.008  1.856  2.415
+OLS + best-k selection -0.872  1.857  2.398
+
+OLS in-sample R2 = 0.320  vs  cross-validated R2 = 0.175
+
+== Feature performance (cross-validated) ==
+             alone_cv_R2  drop_one_cv_R2  delta_R2_when_dropped  delta_RMSE_when_dropped
+feature                                                                                 
+gf_diff           -0.020           0.031                 -0.144                    0.154
+ga_diff            0.038           0.203                  0.027                   -0.030
+rest_diff         -0.039           0.162                 -0.013                    0.014
+xg_diff            0.078          -0.008                 -0.184                    0.194
+ppg_diff           0.055           0.118                 -0.057                    0.062
+fouls_diff        -0.034           0.187                  0.012                   -0.013
+is_knockout       -0.030           0.147                 -0.028                    0.031
+host_adv          -0.041           0.193                  0.017                   -0.019
+
+== Top subsets by CV R2 (exploratory, optimistic) ==
+                                               vars  k  cv_R2
+ gf_diff, rest_diff, xg_diff, ppg_diff, is_knockout  5  0.220
+                         gf_diff, xg_diff, ppg_diff  3  0.210
+            gf_diff, xg_diff, ppg_diff, is_knockout  4  0.210
+              gf_diff, rest_diff, xg_diff, ppg_diff  4  0.202
+  gf_diff, xg_diff, ppg_diff, is_knockout, host_adv  5  0.191
+             gf_diff, xg_diff, ppg_diff, fouls_diff  4  0.189
+               gf_diff, xg_diff, ppg_diff, host_adv  4  0.188
+gf_diff, xg_diff, ppg_diff, fouls_diff, is_knockout  5  0.184
+
+== Handling teams with no earlier match (OLS, repeated 5-fold CV) ==
+                 cv_R2  cv_RMSE  cv_MAE
+zero             0.175    1.828   1.408
+tournament_mean  0.175    1.828   1.408
+shrunk           0.172    1.832   1.414
