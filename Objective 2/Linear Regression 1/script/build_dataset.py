@@ -1,10 +1,10 @@
 """
 Linear Regression 2.1 dataset: ONE ROW PER MATCH (104 rows).
 
-goal   goal_diff = score(team1) - score(team2)   (score after extra time; a penalty
+Target   goal_diff = score(team1) - score(team2)   (score after extra time; a penalty
          shoot-out is not counted, so shoot-out matches have goal_diff = 0)
 
-Eight explanatory variables, every one known BEFORE kick-off. Each is built only from
+Eight explanatory variables, each one known BEFORE kick-off. Each is built only from
 matches played on EARLIER calendar days, as a difference "team1 minus team2":
 
   1 xg_diff        previous average expected goals (xG) created
@@ -17,7 +17,7 @@ matches played on EARLIER calendar days, as a difference "team1 minus team2":
   7 is_knockout    1 = knockout stage, 0 = group stage
   8 host_adv       +1 team1 is a host nation, -1 team2 is, 0 neither (USA, Canada, Mexico)
 
-Opening matches: no team has tournament history yet, so the five history differences are
+Opening matches: no team have tournament history yet, so the five history differences are
 0 there. fifa_pts_diff is a real pre-tournament strength signal available for every match,
 so the 24 opening matches still carry information about which team is stronger.
 """
@@ -121,4 +121,4 @@ if __name__ == "__main__":
     D.to_csv(PROC / "wc2026_lr21_dataset.csv", index=False)
     print(D.shape); print(D[FEATURES + ["goal_diff"]].describe().T.round(3))
     print("stages:", D.stage.value_counts().to_dict())
-    print("rows with all-zero history features (opening round):", int((D[HISTORY].abs().sum(axis=1) == 0).sum()))
+    print("rows with all-zero history feature (opening round):", int((D[HISTORY].abs().sum(axis=1) == 0).sum()))
