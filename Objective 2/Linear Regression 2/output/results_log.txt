@@ -23,7 +23,7 @@ prior_corners_avg         2.32
 opp_prior_conceded_avg    1.30
 team_fifa_pts             1.49
 opp_fifa_pts              1.30
-rest_days                 1.16
+rest_day                1.16
 
 == OLS on all 208 rows (standard errors clustered by match) ==  R2=0.269  adj R2=0.240  AIC=680.0
                          coef  std_err_clustered      t  p_value  ci_low  ci_high  std_beta
