@@ -59,7 +59,7 @@ def load_ranking():
     return r.set_index("team").points
 
 
-def build():
+def ():
     m = load_matches()
     pts = load_ranking()
     rows = []
