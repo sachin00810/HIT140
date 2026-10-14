@@ -1,7 +1,7 @@
 """
 Linear Regression 2.1 dataset: ONE ROW PER MATCH (104 rows).
 
-Target   goal_diff = score(team1) - score(team2)   (score after extra time; a penalty
+goal   goal_diff = score(team1) - score(team2)   (score after extra time; a penalty
          shoot-out is not counted, so shoot-out matches have goal_diff = 0)
 
 Eight explanatory variables, every one known BEFORE kick-off. Each is built only from
